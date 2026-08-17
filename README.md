@@ -5,6 +5,12 @@ de distribución de bebidas con flota propia, para practicar análisis de
 datos (EDA, estimación de costos, consumo de insumos, mantenimiento
 predictivo, etc.).
 
+## Versiones de python y librerías
+python                    3.12.11
+pandas                    2.3.3
+numpy                     2.3.1
+faker                     40.36.0 
+
 ## Cómo correrlo
 
 ```bash
