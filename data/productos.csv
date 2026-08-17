@@ -1,0 +1,27 @@
+producto_id,nombre,categoria,presentacion,peso_kg,volumen_l,precio_base
+1,Cola botella 600ml,gaseosa,botella 600ml,0.69,0.6,2480.0
+2,Agua Mineral Sin Gas no retornable 1.5L,agua,no retornable 1.5L,1.63,1.5,1820.0
+3,Rubia botella 600ml,cerveza,botella 600ml,0.69,0.6,1040.0
+4,Isotónica Limón pack x6 500ml,isotonica,pack x6 500ml,3.56,3.0,5670.0
+5,Jugo de Naranja retornable 1L,jugo,retornable 1L,1.12,1.0,1360.0
+6,Cola Zero no retornable 1.5L,gaseosa,no retornable 1.5L,1.64,1.5,1500.0
+7,Isotónica Limón pack x6 500ml,isotonica,pack x6 500ml,3.63,3.0,9150.0
+8,Roja lata 354ml,cerveza,lata 354ml,0.4,0.354,990.0
+9,Negra pack x6 500ml,cerveza,pack x6 500ml,3.55,3.0,4590.0
+10,Agua Mineral Sin Gas no retornable 1.5L,agua,no retornable 1.5L,1.59,1.5,1590.0
+11,Jugo Multifruta no retornable 2.25L,jugo,no retornable 2.25L,2.41,2.25,1760.0
+12,Rubia Sin Alcohol no retornable 2.25L,cerveza,no retornable 2.25L,2.37,2.25,1260.0
+13,Cola lata 354ml,gaseosa,lata 354ml,0.39,0.354,1220.0
+14,Lima Limón no retornable 2.25L,gaseosa,no retornable 2.25L,2.34,2.25,1710.0
+15,Isotónica Naranja retornable 1L,isotonica,retornable 1L,1.09,1.0,1370.0
+16,Jugo de Manzana retornable 1L,jugo,retornable 1L,1.1,1.0,1600.0
+17,Jugo de Naranja pack x6 500ml,jugo,pack x6 500ml,3.59,3.0,5850.0
+18,Agua Saborizada pack x6 500ml,agua,pack x6 500ml,3.6,3.0,10730.0
+19,Agua Saborizada no retornable 1.5L,agua,no retornable 1.5L,1.61,1.5,960.0
+20,Cola botella 600ml,gaseosa,botella 600ml,0.7,0.6,1140.0
+21,IPA retornable 1L,cerveza,retornable 1L,1.09,1.0,710.0
+22,Rubia lata 354ml,cerveza,lata 354ml,0.4,0.354,1700.0
+23,Agua Mineral Con Gas botella 600ml,agua,botella 600ml,0.7,0.6,1750.0
+24,Agua Mineral Sin Gas no retornable 2.25L,agua,no retornable 2.25L,2.38,2.25,1410.0
+25,Agua Mineral Sin Gas botella 600ml,agua,botella 600ml,0.68,0.6,680.0
+26,Agua Saborizada botella 600ml,agua,botella 600ml,0.7,0.6,1250.0

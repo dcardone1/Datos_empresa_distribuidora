@@ -1,0 +1,13 @@
+insumo_id,nombre,unidad_medida,costo_unitario_referencia
+1,Aceite de motor 15W40 (litro),litro,4500
+2,Filtro de aceite,unidad,8000
+3,Filtro de aire,unidad,12000
+4,Filtro de gasoil,unidad,9500
+5,Cubierta 215/75 R17.5,unidad,180000
+6,Pastillas de freno (juego),juego,65000
+7,Discos de freno (par),par,95000
+8,Correa de distribución (kit),kit,220000
+9,Batería 12V 150Ah,unidad,150000
+10,Amortiguador,unidad,85000
+11,Correa de alternador,unidad,25000
+12,Líquido refrigerante (litro),litro,6000

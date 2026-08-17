@@ -1,0 +1,11 @@
+modelo_id,marca,modelo,tipo,potencia_hp,cilindrada_cc,transmision,tipo_combustible,capacidad_tanque_l,tara_kg,capacidad_carga_kg,capacidad_carga_m3,configuracion_eje,consumo_teorico_l_100km
+1,Mercedes-Benz,Accelo 1016,camión,160,4249,manual_6,diesel,150,3900,6500,22,4x2,22.0
+2,Iveco,Daily 70C17,camión,170,2998,manual_6,diesel,100,2600,4200,16,4x2,15.0
+3,Ford,Cargo 1119,camión,190,3922,manual_6,diesel,160,4300,7100,24,4x2,24.0
+4,Volkswagen,Delivery Express 9.170,camión,170,4600,manual_6,diesel,140,3700,5700,20,4x2,20.0
+5,Iveco,Tector 170E22,camión,220,5880,manual_6,diesel,200,5200,9500,30,6x2,28.0
+6,Mercedes-Benz,Atego 1719,camión,190,4801,manual_6,diesel,200,5400,10200,32,6x2,27.0
+7,Fiat,Ducato Cargo,camioneta,140,2287,manual_6,diesel,90,1900,1500,10,4x2,11.0
+8,Renault,Master Furgón,camioneta,135,2298,manual_6,diesel,80,1850,1400,9,4x2,10.5
+9,Volkswagen,Delivery Express 6.160,camión,160,3800,manual_5,diesel,120,3200,4600,18,4x2,18.0
+10,Iveco,Daily 35S14,camioneta,146,2998,manual_6,diesel,90,2100,1700,11,4x2,12.5
