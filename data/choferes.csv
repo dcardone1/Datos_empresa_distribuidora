@@ -1,36 +1,46 @@
 chofer_id,nombre,fecha_ingreso,categoria_licencia,deposito_id
-1,Sofía Benjamin Gomez,2017-03-05,C1,1
-2,Santiago Santiago Arias,2022-04-10,C1,1
-3,Mateo Mateo Joaquin Flores Rodriguez,2022-04-28,D1,1
-4,Juliana Aguirre,2017-12-11,C1,1
-5,Benicio Guadalupe Vargas Quiroga,2019-03-25,D1,1
-6,Josefina Violeta Martinez Medina,2018-12-07,C3,1
-7,Jeronimo Emma Luna Pereyra,2022-03-22,C1,1
-8,Julieta Valentino Fernandez,2022-10-13,C2,1
-9,Luciano Santino Benjamin Gimenez,2022-10-04,C2,1
-10,Mia Morena Francesca Pereyra Toledo,2024-06-07,C1,1
-11,Dr(a). Valentino Miranda,2023-02-01,C3,2
-12,Dr(a). Catalina Ortiz,2019-07-17,D1,2
-13,Thiago Benitez Medina,2017-11-09,D1,2
-14,Sr(a). Benjamin Vera,2021-11-13,D1,2
-15,Emilia Carrizo Diaz,2024-04-02,C1,2
-16,Dr(a). Jazmin Duarte,2024-09-20,C3,2
-17,Catalina Romero Gonzalez,2018-10-29,C3,2
-18,Benjamin Benicio Romero,2018-11-16,C1,2
-19,Valentin Gonzalez,2017-04-20,C1,2
-20,Luciano Benjamin Dylan Cabrera,2018-02-14,C2,2
-21,Octavio Gonzalez Gomez,2021-05-24,C3,2
-22,Bautista Hernandez Carrizo,2021-05-01,C2,2
-23,Victoria Sofía Arias Morales,2019-12-09,C3,2
-24,Juan Ramirez,2019-06-16,D1,2
-25,Malena Salvador Diaz Benitez,2023-07-28,D1,3
-26,Maximo Maldonado Benitez,2020-08-23,C2,3
-27,Bautista Rodriguez Gomez,2023-05-26,C1,3
-28,León Ambar Correa Ruiz,2024-08-16,D1,3
-29,Emma Torres Ruiz,2019-07-07,C2,3
-30,Uma  Juarez Ferreyra,2018-08-10,D1,3
-31,Agostina Diaz Ferreyra,2024-07-17,D1,3
-32,Sr(a). Benicio Cruz,2022-01-10,C3,3
-33,Emilia Pedro Gonzalez Muñoz,2019-04-22,C1,3
-34,Tomas Rodriguez Flores,2021-12-04,C3,3
-35,Dr(a). Benjamin Acosta,2021-01-29,C1,3
+1,Ian Ezequiel Lopez,2017-05-11,C3,1
+2,Maite Gutierrez Fernandez,2018-07-23,D1,1
+3,Juan Bautista Lucas Ezequiel Gomez Ortiz,2019-03-23,D1,1
+4,Thiago Benitez Medina,2019-06-17,D1,1
+5,Sr(a). Benjamin Vera,2024-11-25,D1,1
+6,Emilia Carrizo Diaz,2023-02-26,C1,1
+7,Dr(a). Jazmin Duarte,2019-07-17,C3,1
+8,Catalina Romero Gonzalez,2024-09-10,C3,1
+9,Benjamin Benicio Romero,2020-12-14,C1,1
+10,Valentin Gonzalez,2020-12-19,C1,1
+11,Luciano Benjamin Dylan Cabrera,2020-06-08,C2,1
+12,Octavio Gonzalez Gomez,2018-02-21,C3,2
+13,Bautista Hernandez Carrizo,2024-05-25,C2,2
+14,Victoria Sofía Arias Morales,2017-02-11,C3,2
+15,Juan Ramirez,2018-05-20,D1,2
+16,Malena Salvador Diaz Benitez,2018-10-27,D1,2
+17,Maximo Maldonado Benitez,2019-03-20,C2,2
+18,Bautista Rodriguez Gomez,2018-01-17,C1,2
+19,León Ambar Correa Ruiz,2017-02-22,D1,2
+20,Emma Torres Ruiz,2022-05-14,C2,2
+21,Uma  Juarez Ferreyra,2024-09-03,D1,2
+22,Agostina Diaz Ferreyra,2017-12-20,D1,2
+23,Sr(a). Benicio Cruz,2019-05-08,C3,2
+24,Emilia Pedro Gonzalez Muñoz,2021-01-04,C1,2
+25,Tomas Rodriguez Flores,2024-05-05,C3,2
+26,Dr(a). Benjamin Acosta,2022-07-01,C1,2
+27,Luisana Ruiz Vargas,2023-01-25,C3,2
+28,Benicio Arias Diaz,2021-08-08,C1,2
+29,Ignacio Ortiz,2020-04-21,C3,3
+30,Guillermina Gimenez Lopez,2018-08-02,C1,3
+31,Pedro Suarez,2023-11-04,C2,3
+32,Dr(a). Valentina Morales,2023-05-14,C1,3
+33,Juan Cruz Santino Duarte Gimenez,2017-03-15,D1,3
+34,Dr(a). Maria Paz Ramos,2022-08-31,D1,3
+35,Alma Mia Gonzalez,2017-09-02,C1,3
+36,Juana Thiago Valentin Mendez,2022-11-07,C3,3
+37,Maximo Agustina Ayala,2023-07-17,C1,3
+38,Mia Morena Valentina Sanchez Cabrera,2018-01-15,C1,3
+39,Sr(a). Isabella Vera,2020-06-08,C2,3
+40,Facundo Villalba Perez,2017-12-25,C2,3
+41,Thiago Ezequiel Gomez Perez,2021-06-29,D1,3
+42,Sr(a). Lucas Benjamin Gomez,2024-05-05,C3,3
+43,Sr(a). Bruno Godoy,2017-08-23,C1,3
+44,Mora Amparo Paz Carrizo,2020-02-25,D1,3
+45,Sr(a). Matilda Fernandez,2024-09-14,D1,3

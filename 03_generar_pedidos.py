@@ -63,7 +63,8 @@ def factor_inflacion_en(fecha: datetime, tabla_inflacion: pd.DataFrame) -> float
     return float(tabla_inflacion.iloc[idx]["factor_acumulado"])
 
 
-def generar_fechas_pedido(cliente_fecha_alta: datetime, frecuencia_dias: float) -> list:
+def generar_fechas_pedido(cliente_fecha_alta: datetime, frecuencia_dias: float,
+                           cliente_fecha_baja: datetime = None) -> list:
     """
     Genera fechas de pedido para un cliente desde su alta (o inicio del
     período, lo que sea más tarde) hasta el fin del período, espaciadas por
@@ -71,13 +72,14 @@ def generar_fechas_pedido(cliente_fecha_alta: datetime, frecuencia_dias: float) 
     en meses de baja demanda, se salta el pedido con cierta probabilidad.
     """
     inicio = max(cliente_fecha_alta, FECHA_INICIO)
+    fin = FECHA_FIN if cliente_fecha_baja is None else min(cliente_fecha_baja, FECHA_FIN)
     fechas = []
     fecha_actual = inicio + timedelta(days=int(cfg.RNG.integers(0, int(frecuencia_dias))))
 
     # Ruido individual: este cliente es un poco más o menos regular que el promedio
     factor_regularidad = cfg.RNG.uniform(0.8, 1.25)
 
-    while fecha_actual <= FECHA_FIN:
+    while fecha_actual <= fin:
         mult_estacional = cfg.ESTACIONALIDAD_MENSUAL[fecha_actual.month]
         # En temporada alta el cliente tiende a pedir un poco más seguido
         # (probabilidad de "saltear" este ciclo baja); en temporada baja, sube.
@@ -127,8 +129,11 @@ def generar_pedidos_y_detalle(clientes: pd.DataFrame, productos: pd.DataFrame,
 
     for _, cliente in clientes.iterrows():
         fecha_alta = datetime.strptime(cliente["fecha_alta"], "%Y-%m-%d")
+        # fecha_baja viene vacía (NaN) para los clientes que siguen activos
+        fecha_baja = (datetime.strptime(cliente["fecha_baja"], "%Y-%m-%d")
+                      if pd.notna(cliente["fecha_baja"]) else None)
         frecuencia = cfg.FRECUENCIA_PEDIDO_DIAS[cliente["tipo_cliente"]]
-        fechas_pedido = generar_fechas_pedido(fecha_alta, frecuencia)
+        fechas_pedido = generar_fechas_pedido(fecha_alta, frecuencia, fecha_baja)
         factor_volumen = factor_volumen_por_tipo[cliente["tipo_cliente"]]
         cliente_id = int(cliente["cliente_id"])
 

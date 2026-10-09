@@ -1,360 +1,481 @@
 mantenimiento_id,vehiculo_id,fecha,tipo,subtipo,km_odometro,taller,costo_mano_obra
-1,1,2022-01-10,correctivo,,111409.4,Taller Central de Flota,104972
-2,1,2022-07-10,preventivo,cambio_aceite_filtro,120000.0,Taller Mecánico San Martín,38142
-3,1,2022-07-10,preventivo,frenos,120000.0,Service Oficial Mercedes-Benz,66000
-4,1,2022-12-21,preventivo,cambio_aceite_filtro,130000.0,Service Oficial Mercedes-Benz,37555
-5,1,2023-02-10,preventivo,cubiertas,135000.0,Taller Central de Flota,29628
-6,1,2023-04-01,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Mercedes-Benz,39700
-7,1,2023-08-02,correctivo,,146037.4,Taller Mecánico La Ruta,275550
-8,1,2023-10-06,preventivo,cambio_aceite_filtro,150000.0,Frenos y Embragues Sur,39471
-9,1,2023-10-06,preventivo,frenos,150000.0,Taller Mecánico La Ruta,83675
-10,1,2024-01-08,preventivo,cambio_aceite_filtro,160000.0,Gomería y Mecánica El Rápido,54275
-11,1,2024-01-08,preventivo,correa_distribucion,160000.0,Taller Mecánico La Ruta,148616
-12,1,2024-04-15,preventivo,cambio_aceite_filtro,170000.0,Service Oficial Iveco,59560
-13,1,2024-08-22,preventivo,cambio_aceite_filtro,180000.0,Taller Diesel Norte,63946
-14,1,2024-08-22,preventivo,frenos,180000.0,Taller Rodríguez Hnos.,131163
-15,1,2024-08-22,preventivo,cubiertas,180000.0,Gomería y Mecánica El Rápido,50822
-16,1,2024-11-27,preventivo,cambio_aceite_filtro,190000.0,Taller Diesel Norte,53764
-17,2,2022-02-22,preventivo,cubiertas,135000.0,Taller Mecánico La Ruta,21335
-18,2,2022-02-27,correctivo,,135348.2,Service Oficial Iveco,46070
-19,2,2022-05-31,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico San Martín,27680
-20,2,2022-11-03,correctivo,,146675.1,Taller Rodríguez Hnos.,221223
-21,2,2022-12-11,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,44373
-22,2,2022-12-11,preventivo,frenos,150000.0,Service Oficial Mercedes-Benz,40712
-23,2,2023-03-18,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico La Ruta,44793
-24,2,2023-03-18,preventivo,correa_distribucion,160000.0,Frenos y Embragues Sur,125603
-25,2,2023-04-28,correctivo,,162762.6,Taller Central de Flota,276554
-26,2,2023-09-14,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico La Ruta,37790
-27,2,2023-12-30,preventivo,cambio_aceite_filtro,180000.0,Service Oficial Iveco,38702
-28,2,2023-12-30,preventivo,frenos,180000.0,Gomería y Mecánica El Rápido,104472
-29,2,2023-12-30,preventivo,cubiertas,180000.0,Service Oficial Iveco,38322
-30,2,2023-12-31,correctivo,,180008.9,Gomería y Mecánica El Rápido,48646
-31,2,2024-03-25,preventivo,cambio_aceite_filtro,190000.0,Taller Mecánico San Martín,56245
-32,2,2024-07-07,correctivo,,198444.9,Frenos y Embragues Sur,107663
-33,2,2024-07-26,preventivo,cambio_aceite_filtro,200000.0,Taller Central de Flota,89233
-34,2,2024-10-12,correctivo,,206783.6,Taller Mecánico San Martín,474997
-35,2,2024-11-11,preventivo,cambio_aceite_filtro,210000.0,Service Oficial Mercedes-Benz,80624
-36,2,2024-11-11,preventivo,frenos,210000.0,Taller Central de Flota,111691
-37,3,2022-01-18,preventivo,cambio_aceite_filtro,110000.0,Taller Rodríguez Hnos.,31935
-38,3,2022-08-22,preventivo,cambio_aceite_filtro,120000.0,Taller Diesel Norte,39025
-39,3,2022-08-22,preventivo,frenos,120000.0,Taller Mecánico La Ruta,57504
-40,3,2022-12-29,preventivo,cambio_aceite_filtro,130000.0,Gomería y Mecánica El Rápido,32151
-41,3,2023-02-17,preventivo,cubiertas,135000.0,Taller Central de Flota,18410
-42,3,2023-02-24,correctivo,,135731.6,Taller Central de Flota,34341
-43,3,2023-04-24,preventivo,cambio_aceite_filtro,140000.0,Taller Diesel Norte,54463
-44,3,2023-05-11,correctivo,,140574.7,Taller Rodríguez Hnos.,164998
-45,3,2023-10-02,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico San Martín,45014
-46,3,2023-10-02,preventivo,frenos,150000.0,Taller Diesel Norte,94911
-47,3,2024-01-01,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Iveco,57095
-48,3,2024-01-01,preventivo,correa_distribucion,160000.0,Taller Mecánico San Martín,123358
-49,3,2024-03-27,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico La Ruta,40113
-50,3,2024-07-27,preventivo,cambio_aceite_filtro,180000.0,Taller Mecánico San Martín,74368
-51,3,2024-07-27,preventivo,frenos,180000.0,Taller Diesel Norte,98400
-52,3,2024-07-27,preventivo,cubiertas,180000.0,Frenos y Embragues Sur,32122
-53,3,2024-11-06,preventivo,cambio_aceite_filtro,190000.0,Taller Mecánico La Ruta,97911
-54,4,2022-01-31,preventivo,cubiertas,135000.0,Service Oficial Mercedes-Benz,17879
-55,4,2022-05-06,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Mercedes-Benz,36907
-56,4,2022-08-13,correctivo,,144533.1,Taller Diesel Norte,89996
-57,4,2022-11-19,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,25783
-58,4,2022-11-19,preventivo,frenos,150000.0,Service Oficial Iveco,42997
-59,4,2023-01-11,correctivo,,154954.2,Service Oficial Mercedes-Benz,227221
-60,4,2023-02-25,preventivo,cambio_aceite_filtro,160000.0,Taller Diesel Norte,45923
-61,4,2023-02-25,preventivo,correa_distribucion,160000.0,Frenos y Embragues Sur,90453
-62,4,2023-07-22,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico La Ruta,52968
-63,4,2023-11-23,preventivo,cambio_aceite_filtro,180000.0,Taller Mecánico La Ruta,42944
-64,4,2023-11-23,preventivo,frenos,180000.0,Service Oficial Iveco,90245
-65,4,2023-11-23,preventivo,cubiertas,180000.0,Service Oficial Iveco,45336
-66,4,2024-02-27,preventivo,cambio_aceite_filtro,190000.0,Taller Diesel Norte,70015
-67,4,2024-06-15,preventivo,cambio_aceite_filtro,200000.0,Taller Mecánico San Martín,75144
-68,4,2024-10-20,preventivo,cambio_aceite_filtro,210000.0,Taller Rodríguez Hnos.,85441
-69,4,2024-10-20,preventivo,frenos,210000.0,Taller Mecánico San Martín,100886
-70,5,2022-01-27,preventivo,cambio_aceite_filtro,110000.0,Service Oficial Mercedes-Benz,17710
-71,5,2022-07-26,preventivo,cambio_aceite_filtro,120000.0,Taller Mecánico San Martín,34632
-72,5,2022-07-26,preventivo,frenos,120000.0,Taller Central de Flota,69751
-73,5,2022-11-28,correctivo,,128012.6,Gomería y Mecánica El Rápido,205685
-74,5,2022-12-16,preventivo,cambio_aceite_filtro,130000.0,Taller Rodríguez Hnos.,44905
-75,5,2023-02-08,preventivo,cubiertas,135000.0,Frenos y Embragues Sur,20479
-76,5,2023-04-11,preventivo,cambio_aceite_filtro,140000.0,Taller Rodríguez Hnos.,32856
-77,5,2023-09-07,preventivo,cambio_aceite_filtro,150000.0,Taller Rodríguez Hnos.,50919
-78,5,2023-09-07,preventivo,frenos,150000.0,Taller Central de Flota,66636
-79,5,2023-12-28,preventivo,cambio_aceite_filtro,160000.0,Taller Central de Flota,39047
-80,5,2023-12-28,preventivo,correa_distribucion,160000.0,Taller Diesel Norte,100022
-81,5,2023-12-30,correctivo,,160212.6,Service Oficial Mercedes-Benz,56351
-82,5,2024-03-28,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico San Martín,44417
-83,5,2024-03-29,correctivo,,170126.2,Taller Mecánico San Martín,215770
-84,5,2024-07-20,preventivo,cambio_aceite_filtro,180000.0,Gomería y Mecánica El Rápido,83027
-85,5,2024-07-20,preventivo,frenos,180000.0,Taller Rodríguez Hnos.,151844
-86,5,2024-07-20,preventivo,cubiertas,180000.0,Taller Mecánico San Martín,45318
-87,5,2024-11-06,preventivo,cambio_aceite_filtro,190000.0,Service Oficial Mercedes-Benz,97504
-88,6,2022-01-01,preventivo,cambio_aceite_filtro,110000.0,Taller Diesel Norte,33208
-89,6,2022-06-26,preventivo,cambio_aceite_filtro,120000.0,Gomería y Mecánica El Rápido,24248
-90,6,2022-06-26,preventivo,frenos,120000.0,Service Oficial Iveco,46155
-91,6,2022-09-25,correctivo,,124290.3,Taller Mecánico San Martín,46944
-92,6,2022-12-06,preventivo,cambio_aceite_filtro,130000.0,Gomería y Mecánica El Rápido,31328
-93,6,2023-01-19,preventivo,cubiertas,135000.0,Taller Diesel Norte,27764
-94,6,2023-02-06,correctivo,,137096.6,Taller Rodríguez Hnos.,73316
-95,6,2023-03-06,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico La Ruta,40951
-96,6,2023-05-22,correctivo,,145802.5,Taller Central de Flota,219048
-97,6,2023-08-12,preventivo,cambio_aceite_filtro,150000.0,Gomería y Mecánica El Rápido,44675
-98,6,2023-08-12,preventivo,frenos,150000.0,Gomería y Mecánica El Rápido,85638
-99,6,2023-12-10,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico San Martín,39570
-100,6,2023-12-10,preventivo,correa_distribucion,160000.0,Frenos y Embragues Sur,159856
-101,6,2024-01-04,correctivo,,162716.9,Frenos y Embragues Sur,360803
-102,6,2024-02-21,correctivo,,168440.9,Service Oficial Mercedes-Benz,291882
-103,6,2024-03-04,preventivo,cambio_aceite_filtro,170000.0,Taller Rodríguez Hnos.,55547
-104,6,2024-06-13,preventivo,cambio_aceite_filtro,180000.0,Taller Rodríguez Hnos.,66936
-105,6,2024-06-13,preventivo,frenos,180000.0,Taller Diesel Norte,133011
-106,6,2024-06-13,preventivo,cubiertas,180000.0,Gomería y Mecánica El Rápido,55021
-107,6,2024-06-30,correctivo,,180663.0,Taller Central de Flota,72535
-108,6,2024-10-31,preventivo,cambio_aceite_filtro,190000.0,Taller Mecánico La Ruta,97350
-109,7,2022-02-04,correctivo,,117359.5,Frenos y Embragues Sur,138966
-110,7,2022-03-08,preventivo,cambio_aceite_filtro,120000.0,Frenos y Embragues Sur,27049
-111,7,2022-03-08,preventivo,frenos,120000.0,Service Oficial Mercedes-Benz,51141
-112,7,2022-10-07,preventivo,cambio_aceite_filtro,130000.0,Frenos y Embragues Sur,32802
-113,7,2022-12-11,preventivo,cubiertas,135000.0,Service Oficial Mercedes-Benz,15955
-114,7,2023-02-05,preventivo,cambio_aceite_filtro,140000.0,Taller Diesel Norte,48713
-115,7,2023-05-29,preventivo,cambio_aceite_filtro,150000.0,Taller Rodríguez Hnos.,54375
-116,7,2023-05-29,preventivo,frenos,150000.0,Frenos y Embragues Sur,69413
-117,7,2023-10-18,preventivo,cambio_aceite_filtro,160000.0,Frenos y Embragues Sur,49706
-118,7,2023-10-18,preventivo,correa_distribucion,160000.0,Taller Rodríguez Hnos.,112717
-119,7,2024-01-21,preventivo,cambio_aceite_filtro,170000.0,Taller Rodríguez Hnos.,71254
-120,7,2024-04-23,preventivo,cambio_aceite_filtro,180000.0,Taller Central de Flota,73618
-121,7,2024-04-23,preventivo,frenos,180000.0,Frenos y Embragues Sur,89416
-122,7,2024-04-23,preventivo,cubiertas,180000.0,Service Oficial Mercedes-Benz,55033
-123,7,2024-09-07,preventivo,cambio_aceite_filtro,190000.0,Taller Rodríguez Hnos.,83977
-124,7,2024-12-02,preventivo,cambio_aceite_filtro,200000.0,Taller Central de Flota,81496
-125,8,2022-03-12,preventivo,cambio_aceite_filtro,130000.0,Taller Central de Flota,30559
-126,8,2022-06-11,correctivo,,133638.3,Service Oficial Iveco,98930
-127,8,2022-07-29,preventivo,cubiertas,135000.0,Taller Central de Flota,16720
-128,8,2022-11-21,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico La Ruta,46882
-129,8,2023-02-17,preventivo,cambio_aceite_filtro,150000.0,Service Oficial Mercedes-Benz,42845
-130,8,2023-02-17,preventivo,frenos,150000.0,Taller Central de Flota,45522
-131,8,2023-07-06,preventivo,cambio_aceite_filtro,160000.0,Gomería y Mecánica El Rápido,35610
-132,8,2023-07-06,preventivo,correa_distribucion,160000.0,Taller Central de Flota,103981
-133,8,2023-11-09,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico San Martín,57064
-134,8,2024-02-02,preventivo,cambio_aceite_filtro,180000.0,Frenos y Embragues Sur,55467
-135,8,2024-02-02,preventivo,frenos,180000.0,Service Oficial Iveco,84066
-136,8,2024-02-02,preventivo,cubiertas,180000.0,Frenos y Embragues Sur,30093
-137,8,2024-05-22,preventivo,cambio_aceite_filtro,190000.0,Taller Central de Flota,73341
-138,8,2024-07-15,correctivo,,193959.7,Taller Mecánico San Martín,114483
-139,8,2024-09-20,preventivo,cambio_aceite_filtro,200000.0,Frenos y Embragues Sur,70691
-140,9,2022-09-13,preventivo,cambio_aceite_filtro,100000.0,Taller Mecánico San Martín,32504
-141,9,2023-02-02,preventivo,cambio_aceite_filtro,110000.0,Taller Mecánico La Ruta,48648
-142,9,2023-04-02,correctivo,,113728.3,Frenos y Embragues Sur,264191
-143,9,2023-09-07,preventivo,cambio_aceite_filtro,120000.0,Gomería y Mecánica El Rápido,38681
-144,9,2023-09-07,preventivo,frenos,120000.0,Taller Diesel Norte,97539
-145,9,2024-01-18,preventivo,cambio_aceite_filtro,130000.0,Service Oficial Mercedes-Benz,64799
-146,9,2024-03-15,preventivo,cubiertas,135000.0,Frenos y Embragues Sur,38977
-147,9,2024-07-03,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Mercedes-Benz,51819
-148,9,2024-12-18,preventivo,cambio_aceite_filtro,150000.0,Frenos y Embragues Sur,98356
-149,9,2024-12-18,preventivo,frenos,150000.0,Gomería y Mecánica El Rápido,124171
-150,10,2023-12-11,preventivo,cambio_aceite_filtro,10000.0,Gomería y Mecánica El Rápido,70362
-151,10,2024-05-20,preventivo,cambio_aceite_filtro,20000.0,Taller Rodríguez Hnos.,65994
-152,10,2024-09-20,correctivo,,25839.2,Service Oficial Mercedes-Benz,252756
-153,10,2024-11-12,preventivo,cambio_aceite_filtro,30000.0,Service Oficial Iveco,95742
-154,10,2024-11-12,preventivo,frenos,30000.0,Taller Diesel Norte,89257
-155,11,2022-05-08,preventivo,cambio_aceite_filtro,110000.0,Gomería y Mecánica El Rápido,22200
-156,11,2022-12-19,preventivo,cambio_aceite_filtro,120000.0,Service Oficial Mercedes-Benz,43916
-157,11,2022-12-19,preventivo,frenos,120000.0,Taller Mecánico San Martín,60930
-158,11,2023-02-13,correctivo,,124567.8,Taller Central de Flota,184535
-159,11,2023-05-21,preventivo,cambio_aceite_filtro,130000.0,Frenos y Embragues Sur,37177
-160,11,2023-08-15,correctivo,,133146.0,Service Oficial Iveco,164444
-161,11,2023-10-04,preventivo,cubiertas,135000.0,Taller Rodríguez Hnos.,32333
-162,11,2023-12-04,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico La Ruta,36376
-163,11,2024-04-04,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,52266
-164,11,2024-04-04,preventivo,frenos,150000.0,Gomería y Mecánica El Rápido,116364
-165,11,2024-10-19,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Iveco,62208
-166,11,2024-10-19,preventivo,correa_distribucion,160000.0,Taller Diesel Norte,140649
-167,12,2022-01-04,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Mercedes-Benz,17035
-168,12,2022-03-02,correctivo,,143344.5,Taller Diesel Norte,78193
-169,12,2022-08-31,preventivo,cambio_aceite_filtro,150000.0,Frenos y Embragues Sur,30126
-170,12,2022-08-31,preventivo,frenos,150000.0,Gomería y Mecánica El Rápido,43999
-171,12,2023-01-23,preventivo,cambio_aceite_filtro,160000.0,Taller Rodríguez Hnos.,36835
-172,12,2023-01-23,preventivo,correa_distribucion,160000.0,Taller Central de Flota,132680
-173,12,2023-08-22,preventivo,cambio_aceite_filtro,170000.0,Gomería y Mecánica El Rápido,56706
-174,12,2023-10-18,correctivo,,172658.7,Taller Mecánico San Martín,260084
-175,12,2023-10-26,correctivo,,172973.9,Taller Mecánico San Martín,218795
-176,12,2024-01-18,preventivo,cambio_aceite_filtro,180000.0,Gomería y Mecánica El Rápido,66657
-177,12,2024-01-18,preventivo,frenos,180000.0,Service Oficial Iveco,107846
-178,12,2024-01-18,preventivo,cubiertas,180000.0,Taller Diesel Norte,42601
-179,12,2024-06-22,preventivo,cambio_aceite_filtro,190000.0,Service Oficial Mercedes-Benz,74884
-180,12,2024-08-30,correctivo,,193556.0,Taller Central de Flota,135253
-181,12,2024-11-25,preventivo,cambio_aceite_filtro,200000.0,Gomería y Mecánica El Rápido,63280
-182,14,2022-01-30,preventivo,cambio_aceite_filtro,90000.0,Taller Diesel Norte,31170
-183,14,2022-01-30,preventivo,frenos,90000.0,Service Oficial Mercedes-Benz,36236
-184,14,2022-01-30,preventivo,cubiertas,90000.0,Taller Mecánico San Martín,11635
-185,14,2022-07-24,correctivo,,96771.5,Taller Central de Flota,72696
-186,14,2022-09-26,preventivo,cambio_aceite_filtro,100000.0,Taller Diesel Norte,28383
-187,14,2023-02-08,preventivo,cambio_aceite_filtro,110000.0,Taller Mecánico La Ruta,48176
-188,14,2023-08-18,preventivo,cambio_aceite_filtro,120000.0,Taller Central de Flota,52744
-189,14,2023-08-18,preventivo,frenos,120000.0,Taller Diesel Norte,87760
-190,14,2023-10-15,correctivo,,122414.9,Gomería y Mecánica El Rápido,137159
-191,14,2024-02-11,preventivo,cambio_aceite_filtro,130000.0,Taller Mecánico San Martín,64493
-192,14,2024-02-22,correctivo,,130899.2,Taller Mecánico San Martín,228131
-193,14,2024-05-03,preventivo,cubiertas,135000.0,Service Oficial Iveco,46737
-194,14,2024-08-08,preventivo,cambio_aceite_filtro,140000.0,Taller Rodríguez Hnos.,58212
-195,15,2022-04-01,preventivo,cambio_aceite_filtro,140000.0,Gomería y Mecánica El Rápido,23544
-196,15,2022-06-15,correctivo,,141713.8,Frenos y Embragues Sur,122742
-197,15,2022-06-27,correctivo,,142103.6,Service Oficial Iveco,103189
-198,15,2022-12-06,preventivo,cambio_aceite_filtro,150000.0,Taller Diesel Norte,45836
-199,15,2022-12-06,preventivo,frenos,150000.0,Taller Diesel Norte,61860
-200,15,2023-05-07,preventivo,cambio_aceite_filtro,160000.0,Taller Diesel Norte,37577
-201,15,2023-05-07,preventivo,correa_distribucion,160000.0,Taller Mecánico La Ruta,141282
-202,15,2023-12-05,preventivo,cambio_aceite_filtro,170000.0,Service Oficial Iveco,57752
-203,15,2024-04-28,preventivo,cambio_aceite_filtro,180000.0,Taller Mecánico San Martín,59850
-204,15,2024-04-28,preventivo,frenos,180000.0,Taller Diesel Norte,127466
-205,15,2024-04-28,preventivo,cubiertas,180000.0,Taller Mecánico San Martín,45728
-206,15,2024-11-13,preventivo,cambio_aceite_filtro,190000.0,Taller Rodríguez Hnos.,96555
-207,17,2024-01-21,correctivo,,2039.0,Taller Mecánico La Ruta,170410
-208,17,2024-05-30,preventivo,cambio_aceite_filtro,10000.0,Service Oficial Mercedes-Benz,75403
-209,17,2024-11-21,preventivo,cambio_aceite_filtro,20000.0,Service Oficial Mercedes-Benz,65053
-210,18,2022-06-24,preventivo,cambio_aceite_filtro,110000.0,Gomería y Mecánica El Rápido,27593
-211,18,2022-07-20,correctivo,,110835.2,Gomería y Mecánica El Rápido,101578
-212,18,2023-01-05,preventivo,cambio_aceite_filtro,120000.0,Taller Rodríguez Hnos.,30457
-213,18,2023-01-05,preventivo,frenos,120000.0,Service Oficial Mercedes-Benz,53312
-214,18,2023-06-03,preventivo,cambio_aceite_filtro,130000.0,Service Oficial Iveco,35594
-215,18,2023-10-03,preventivo,cubiertas,135000.0,Taller Mecánico La Ruta,48273
-216,18,2023-12-08,preventivo,cambio_aceite_filtro,140000.0,Frenos y Embragues Sur,66504
-217,18,2024-04-06,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,76616
-218,18,2024-04-06,preventivo,frenos,150000.0,Service Oficial Iveco,127029
-219,18,2024-05-08,correctivo,,151501.8,Taller Central de Flota,178561
-220,18,2024-11-16,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Mercedes-Benz,95157
-221,18,2024-11-16,preventivo,correa_distribucion,160000.0,Taller Mecánico San Martín,186719
-222,19,2023-07-06,correctivo,,9386.4,Taller Central de Flota,284724
-223,19,2023-07-19,preventivo,cambio_aceite_filtro,10000.0,Taller Mecánico San Martín,35361
-224,19,2024-01-06,preventivo,cambio_aceite_filtro,20000.0,Gomería y Mecánica El Rápido,54089
-225,19,2024-03-29,correctivo,,25372.7,Taller Central de Flota,135266
-226,19,2024-07-18,preventivo,cambio_aceite_filtro,30000.0,Service Oficial Iveco,59273
-227,19,2024-07-18,preventivo,frenos,30000.0,Service Oficial Mercedes-Benz,142529
-228,19,2024-12-21,preventivo,cambio_aceite_filtro,40000.0,Service Oficial Iveco,90634
-229,20,2022-04-19,preventivo,cambio_aceite_filtro,120000.0,Gomería y Mecánica El Rápido,29715
-230,20,2022-04-19,preventivo,frenos,120000.0,Taller Mecánico San Martín,43951
-231,20,2022-12-21,preventivo,cambio_aceite_filtro,130000.0,Taller Mecánico San Martín,46694
-232,20,2023-02-20,preventivo,cubiertas,135000.0,Frenos y Embragues Sur,20549
-233,20,2023-03-25,correctivo,,137391.8,Taller Mecánico La Ruta,143807
-234,20,2023-06-09,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Iveco,28752
-235,20,2023-12-21,preventivo,cambio_aceite_filtro,150000.0,Service Oficial Mercedes-Benz,69376
-236,20,2023-12-21,preventivo,frenos,150000.0,Service Oficial Iveco,112884
-237,20,2024-06-05,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico La Ruta,71753
-238,20,2024-06-05,preventivo,correa_distribucion,160000.0,Taller Mecánico La Ruta,164935
-239,20,2024-12-01,preventivo,cambio_aceite_filtro,170000.0,Frenos y Embragues Sur,85539
-240,21,2022-02-23,preventivo,cambio_aceite_filtro,120000.0,Taller Mecánico La Ruta,26401
-241,21,2022-02-23,preventivo,frenos,120000.0,Taller Mecánico San Martín,30680
-242,21,2022-08-04,preventivo,cambio_aceite_filtro,130000.0,Taller Mecánico La Ruta,25083
-243,21,2022-10-18,preventivo,cubiertas,135000.0,Frenos y Embragues Sur,27213
-244,21,2022-12-13,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico La Ruta,28613
-245,21,2023-03-20,preventivo,cambio_aceite_filtro,150000.0,Taller Rodríguez Hnos.,43038
-246,21,2023-03-20,preventivo,frenos,150000.0,Taller Mecánico San Martín,65268
-247,21,2023-08-25,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico San Martín,49897
-248,21,2023-08-25,preventivo,correa_distribucion,160000.0,Service Oficial Mercedes-Benz,155893
-249,21,2023-12-10,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico San Martín,55481
-250,21,2024-03-26,preventivo,cambio_aceite_filtro,180000.0,Frenos y Embragues Sur,39144
-251,21,2024-03-26,preventivo,frenos,180000.0,Service Oficial Iveco,107831
-252,21,2024-03-26,preventivo,cubiertas,180000.0,Frenos y Embragues Sur,46704
-253,21,2024-07-30,correctivo,,187976.6,Taller Mecánico La Ruta,86715
-254,21,2024-08-26,preventivo,cambio_aceite_filtro,190000.0,Taller Mecánico San Martín,70115
-255,21,2024-12-21,preventivo,cambio_aceite_filtro,200000.0,Gomería y Mecánica El Rápido,99799
-256,22,2023-09-03,preventivo,cambio_aceite_filtro,10000.0,Taller Rodríguez Hnos.,34264
-257,22,2023-12-24,preventivo,cambio_aceite_filtro,20000.0,Gomería y Mecánica El Rápido,60638
-258,22,2024-03-29,preventivo,cambio_aceite_filtro,30000.0,Service Oficial Iveco,60758
-259,22,2024-03-29,preventivo,frenos,30000.0,Service Oficial Iveco,70724
-260,22,2024-04-20,correctivo,,32110.2,Taller Diesel Norte,59244
-261,22,2024-08-25,preventivo,cambio_aceite_filtro,40000.0,Taller Central de Flota,76161
-262,22,2024-10-22,preventivo,cubiertas,45000.0,Frenos y Embragues Sur,47826
-263,22,2024-12-11,preventivo,cambio_aceite_filtro,50000.0,Taller Diesel Norte,70274
-264,23,2022-03-14,preventivo,cambio_aceite_filtro,100000.0,Taller Diesel Norte,32879
-265,23,2022-03-26,correctivo,,100846.8,Service Oficial Iveco,73423
-266,23,2022-08-25,preventivo,cambio_aceite_filtro,110000.0,Taller Diesel Norte,23358
-267,23,2022-12-24,preventivo,cambio_aceite_filtro,120000.0,Gomería y Mecánica El Rápido,32013
-268,23,2022-12-24,preventivo,frenos,120000.0,Service Oficial Mercedes-Benz,72345
-269,23,2023-04-11,preventivo,cambio_aceite_filtro,130000.0,Service Oficial Iveco,45224
-270,23,2023-04-12,correctivo,,130142.1,Frenos y Embragues Sur,200167
-271,23,2023-04-13,correctivo,,130182.8,Service Oficial Mercedes-Benz,285888
-272,23,2023-06-29,preventivo,cubiertas,135000.0,Taller Mecánico La Ruta,25549
-273,23,2023-09-15,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Mercedes-Benz,55463
-274,23,2023-12-07,correctivo,,147577.3,Taller Mecánico San Martín,204557
-275,23,2023-12-29,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,59187
-276,23,2023-12-29,preventivo,frenos,150000.0,Taller Mecánico San Martín,119905
-277,23,2024-04-03,preventivo,cambio_aceite_filtro,160000.0,Taller Central de Flota,83230
-278,23,2024-04-03,preventivo,correa_distribucion,160000.0,Service Oficial Iveco,206663
-279,23,2024-05-25,correctivo,,164212.7,Taller Rodríguez Hnos.,292423
-280,23,2024-09-10,preventivo,cambio_aceite_filtro,170000.0,Service Oficial Iveco,86550
-281,23,2024-10-26,correctivo,,173500.8,Taller Rodríguez Hnos.,452492
-282,23,2024-12-12,correctivo,,178235.2,Service Oficial Iveco,136581
-283,23,2024-12-30,preventivo,cambio_aceite_filtro,180000.0,Taller Mecánico San Martín,57005
-284,23,2024-12-30,preventivo,frenos,180000.0,Service Oficial Mercedes-Benz,112970
-285,23,2024-12-30,preventivo,cubiertas,180000.0,Taller Central de Flota,62692
-286,24,2024-04-13,preventivo,cambio_aceite_filtro,10000.0,Frenos y Embragues Sur,44608
-287,24,2024-09-05,preventivo,cambio_aceite_filtro,20000.0,Taller Mecánico San Martín,70667
-288,24,2024-12-29,preventivo,cambio_aceite_filtro,30000.0,Taller Rodríguez Hnos.,76717
-289,24,2024-12-29,preventivo,frenos,30000.0,Taller Mecánico San Martín,123225
-290,25,2022-01-30,preventivo,cambio_aceite_filtro,130000.0,Service Oficial Iveco,27392
-291,25,2022-04-04,preventivo,cubiertas,135000.0,Taller Mecánico La Ruta,23151
-292,25,2022-06-26,preventivo,cambio_aceite_filtro,140000.0,Taller Rodríguez Hnos.,35636
-293,25,2022-11-06,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,46167
-294,25,2022-11-06,preventivo,frenos,150000.0,Service Oficial Iveco,39316
-295,25,2022-12-24,correctivo,,155191.3,Gomería y Mecánica El Rápido,43769
-296,25,2023-02-12,preventivo,cambio_aceite_filtro,160000.0,Taller Diesel Norte,47152
-297,25,2023-02-12,preventivo,correa_distribucion,160000.0,Taller Diesel Norte,79604
-298,25,2023-03-04,correctivo,,161908.6,Frenos y Embragues Sur,99258
-299,25,2023-06-13,preventivo,cambio_aceite_filtro,170000.0,Taller Diesel Norte,43822
-300,25,2023-10-20,preventivo,cambio_aceite_filtro,180000.0,Taller Diesel Norte,53625
-301,25,2023-10-20,preventivo,frenos,180000.0,Taller Mecánico La Ruta,89988
-302,25,2023-10-20,preventivo,cubiertas,180000.0,Taller Diesel Norte,45828
-303,25,2023-12-01,correctivo,,183765.8,Taller Central de Flota,111944
-304,25,2024-01-26,preventivo,cambio_aceite_filtro,190000.0,Frenos y Embragues Sur,67442
-305,25,2024-05-25,preventivo,cambio_aceite_filtro,200000.0,Taller Rodríguez Hnos.,45124
-306,25,2024-10-29,preventivo,cambio_aceite_filtro,210000.0,Gomería y Mecánica El Rápido,100865
-307,25,2024-10-29,preventivo,frenos,210000.0,Taller Central de Flota,115254
-308,26,2022-02-05,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico San Martín,28965
-309,26,2022-04-28,correctivo,,146119.8,Gomería y Mecánica El Rápido,90017
-310,26,2022-07-12,preventivo,cambio_aceite_filtro,150000.0,Frenos y Embragues Sur,31391
-311,26,2022-07-12,preventivo,frenos,150000.0,Gomería y Mecánica El Rápido,49139
-312,26,2022-09-13,correctivo,,153407.6,Taller Rodríguez Hnos.,32378
-313,26,2022-12-03,preventivo,cambio_aceite_filtro,160000.0,Taller Rodríguez Hnos.,46186
-314,26,2022-12-03,preventivo,correa_distribucion,160000.0,Taller Mecánico San Martín,115358
-315,26,2023-03-14,preventivo,cambio_aceite_filtro,170000.0,Taller Diesel Norte,44437
-316,26,2023-08-13,preventivo,cambio_aceite_filtro,180000.0,Frenos y Embragues Sur,47591
-317,26,2023-08-13,preventivo,frenos,180000.0,Taller Diesel Norte,93174
-318,26,2023-08-13,preventivo,cubiertas,180000.0,Frenos y Embragues Sur,36540
-319,26,2023-12-14,preventivo,cambio_aceite_filtro,190000.0,Taller Mecánico La Ruta,47956
-320,26,2024-01-24,correctivo,,193910.6,Taller Central de Flota,57780
-321,26,2024-03-30,preventivo,cambio_aceite_filtro,200000.0,Taller Rodríguez Hnos.,61873
-322,26,2024-09-10,preventivo,cambio_aceite_filtro,210000.0,Taller Mecánico La Ruta,79516
-323,26,2024-09-10,preventivo,frenos,210000.0,Taller Diesel Norte,107369
-324,26,2024-11-14,correctivo,,215605.7,Frenos y Embragues Sur,115808
-325,26,2024-11-14,correctivo,,215605.7,Taller Diesel Norte,519925
-326,27,2022-02-06,preventivo,cubiertas,135000.0,Taller Mecánico La Ruta,11371
-327,27,2022-04-11,preventivo,cambio_aceite_filtro,140000.0,Taller Diesel Norte,32983
-328,27,2022-09-14,preventivo,cambio_aceite_filtro,150000.0,Service Oficial Mercedes-Benz,31554
-329,27,2022-09-14,preventivo,frenos,150000.0,Service Oficial Iveco,50377
-330,27,2023-01-05,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Iveco,25708
-331,27,2023-01-05,preventivo,correa_distribucion,160000.0,Taller Diesel Norte,103084
-332,27,2023-04-22,preventivo,cambio_aceite_filtro,170000.0,Taller Central de Flota,56355
-333,27,2023-10-01,preventivo,cambio_aceite_filtro,180000.0,Taller Rodríguez Hnos.,47350
-334,27,2023-10-01,preventivo,frenos,180000.0,Service Oficial Mercedes-Benz,67490
-335,27,2023-10-01,preventivo,cubiertas,180000.0,Taller Mecánico La Ruta,31461
-336,27,2024-01-11,preventivo,cambio_aceite_filtro,190000.0,Taller Diesel Norte,58757
-337,27,2024-04-22,preventivo,cambio_aceite_filtro,200000.0,Service Oficial Mercedes-Benz,59489
-338,27,2024-10-13,preventivo,cambio_aceite_filtro,210000.0,Service Oficial Mercedes-Benz,55166
-339,27,2024-10-13,preventivo,frenos,210000.0,Gomería y Mecánica El Rápido,133656
-340,28,2024-05-19,correctivo,,1126.6,Taller Rodríguez Hnos.,243124
-341,28,2024-09-24,preventivo,cambio_aceite_filtro,10000.0,Taller Mecánico La Ruta,66156
-342,29,2022-02-11,preventivo,cambio_aceite_filtro,120000.0,Taller Central de Flota,21193
-343,29,2022-02-11,preventivo,frenos,120000.0,Service Oficial Mercedes-Benz,48382
-344,29,2022-04-05,correctivo,,124628.1,Taller Mecánico San Martín,171373
-345,29,2022-05-02,correctivo,,126682.8,Taller Diesel Norte,74057
-346,29,2022-06-26,preventivo,cambio_aceite_filtro,130000.0,Taller Mecánico La Ruta,30599
-347,29,2022-09-15,preventivo,cubiertas,135000.0,Taller Mecánico San Martín,18475
-348,29,2022-11-18,preventivo,cambio_aceite_filtro,140000.0,Taller Diesel Norte,35552
-349,29,2022-11-23,correctivo,,140301.0,Taller Rodríguez Hnos.,175945
-350,29,2023-02-25,preventivo,cambio_aceite_filtro,150000.0,Taller Central de Flota,44432
-351,29,2023-02-25,preventivo,frenos,150000.0,Service Oficial Iveco,73381
-352,29,2023-07-19,preventivo,cambio_aceite_filtro,160000.0,Taller Central de Flota,59788
-353,29,2023-07-19,preventivo,correa_distribucion,160000.0,Service Oficial Mercedes-Benz,163301
-354,29,2023-11-25,preventivo,cambio_aceite_filtro,170000.0,Gomería y Mecánica El Rápido,65912
-355,29,2024-02-23,preventivo,cambio_aceite_filtro,180000.0,Gomería y Mecánica El Rápido,54043
-356,29,2024-02-23,preventivo,frenos,180000.0,Gomería y Mecánica El Rápido,106509
-357,29,2024-02-23,preventivo,cubiertas,180000.0,Service Oficial Iveco,38269
-358,29,2024-07-13,preventivo,cambio_aceite_filtro,190000.0,Taller Mecánico San Martín,47075
-359,29,2024-11-11,preventivo,cambio_aceite_filtro,200000.0,Taller Diesel Norte,53281
+1,1,2022-05-04,preventivo,cambio_aceite_filtro,120000.0,Taller Central de Flota,34443
+2,1,2022-05-04,preventivo,frenos,120000.0,Frenos y Embragues Sur,47700
+3,1,2022-10-28,preventivo,cambio_aceite_filtro,130000.0,Frenos y Embragues Sur,33476
+4,1,2022-12-26,preventivo,cubiertas,135000.0,Service Oficial Iveco,28967
+5,1,2023-01-16,correctivo,,137559.3,Taller Central de Flota,190245
+6,1,2023-01-18,correctivo,,137777.0,Taller Mecánico San Martín,117542
+7,1,2023-02-11,preventivo,cambio_aceite_filtro,140000.0,Taller Diesel Norte,45574
+8,1,2023-07-02,preventivo,cambio_aceite_filtro,150000.0,Service Oficial Iveco,44370
+9,1,2023-07-02,preventivo,frenos,150000.0,Taller Rodríguez Hnos.,77929
+10,1,2023-11-24,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Iveco,63193
+11,1,2023-11-24,preventivo,correa_distribucion,160000.0,Frenos y Embragues Sur,150176
+12,1,2024-03-04,preventivo,cambio_aceite_filtro,170000.0,Service Oficial Mercedes-Benz,57435
+13,1,2024-05-02,correctivo,,174715.4,Taller Central de Flota,317876
+14,1,2024-08-03,preventivo,cambio_aceite_filtro,180000.0,Taller Rodríguez Hnos.,57157
+15,1,2024-08-03,preventivo,frenos,180000.0,Taller Mecánico San Martín,90750
+16,1,2024-08-03,preventivo,cubiertas,180000.0,Taller Central de Flota,33888
+17,1,2024-12-12,preventivo,cambio_aceite_filtro,190000.0,Taller Diesel Norte,65638
+18,2,2022-01-20,preventivo,cubiertas,135000.0,Service Oficial Mercedes-Benz,19702
+19,2,2022-03-18,preventivo,cambio_aceite_filtro,140000.0,Taller Diesel Norte,31753
+20,2,2022-09-01,preventivo,cambio_aceite_filtro,150000.0,Gomería y Mecánica El Rápido,24959
+21,2,2022-09-01,preventivo,frenos,150000.0,Service Oficial Mercedes-Benz,64626
+22,2,2022-09-29,correctivo,,152502.3,Taller Mecánico San Martín,161205
+23,2,2022-12-23,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico San Martín,36019
+24,2,2022-12-23,preventivo,correa_distribucion,160000.0,Taller Diesel Norte,98936
+25,2,2023-04-03,preventivo,cambio_aceite_filtro,170000.0,Taller Diesel Norte,52655
+26,2,2023-09-19,preventivo,cambio_aceite_filtro,180000.0,Frenos y Embragues Sur,42319
+27,2,2023-09-19,preventivo,frenos,180000.0,Taller Mecánico La Ruta,104437
+28,2,2023-09-19,preventivo,cubiertas,180000.0,Taller Rodríguez Hnos.,31174
+29,2,2024-01-03,preventivo,cambio_aceite_filtro,190000.0,Service Oficial Mercedes-Benz,42060
+30,2,2024-04-13,preventivo,cambio_aceite_filtro,200000.0,Taller Mecánico La Ruta,46599
+31,2,2024-09-18,preventivo,cambio_aceite_filtro,210000.0,Taller Mecánico San Martín,83422
+32,2,2024-09-18,preventivo,frenos,210000.0,Taller Rodríguez Hnos.,115038
+33,3,2022-01-12,preventivo,cambio_aceite_filtro,110000.0,Taller Mecánico La Ruta,27205
+34,3,2022-04-26,preventivo,cambio_aceite_filtro,120000.0,Taller Central de Flota,26278
+35,3,2022-04-26,preventivo,frenos,120000.0,Taller Rodríguez Hnos.,43204
+36,3,2022-10-24,correctivo,,128841.0,Taller Diesel Norte,184545
+37,3,2022-11-11,preventivo,cambio_aceite_filtro,130000.0,Taller Central de Flota,44547
+38,3,2022-12-26,correctivo,,134791.8,Service Oficial Iveco,108292
+39,3,2022-12-27,preventivo,cubiertas,135000.0,Service Oficial Iveco,22963
+40,3,2022-12-31,correctivo,,135520.3,Gomería y Mecánica El Rápido,208156
+41,3,2023-02-10,preventivo,cambio_aceite_filtro,140000.0,Taller Central de Flota,48364
+42,3,2023-04-03,correctivo,,144860.1,Taller Diesel Norte,135571
+43,3,2023-07-07,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico San Martín,32668
+44,3,2023-07-07,preventivo,frenos,150000.0,Frenos y Embragues Sur,106689
+45,3,2023-11-30,correctivo,,159460.4,Taller Mecánico La Ruta,134030
+46,3,2023-12-07,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Iveco,42074
+47,3,2023-12-07,preventivo,correa_distribucion,160000.0,Service Oficial Iveco,132343
+48,3,2024-01-08,correctivo,,163385.0,Taller Rodríguez Hnos.,122304
+49,3,2024-03-10,preventivo,cambio_aceite_filtro,170000.0,Frenos y Embragues Sur,50537
+50,3,2024-08-23,preventivo,cambio_aceite_filtro,180000.0,Service Oficial Mercedes-Benz,79620
+51,3,2024-08-23,preventivo,frenos,180000.0,Taller Mecánico San Martín,107158
+52,3,2024-08-23,preventivo,cubiertas,180000.0,Taller Central de Flota,53373
+53,3,2024-12-20,preventivo,cambio_aceite_filtro,190000.0,Gomería y Mecánica El Rápido,55176
+54,4,2022-01-05,correctivo,,133574.9,Frenos y Embragues Sur,167950
+55,4,2022-01-20,preventivo,cubiertas,135000.0,Gomería y Mecánica El Rápido,13797
+56,4,2022-01-29,correctivo,,136033.6,Taller Mecánico La Ruta,118165
+57,4,2022-03-14,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico San Martín,32208
+58,4,2022-05-17,correctivo,,142848.6,Service Oficial Mercedes-Benz,170389
+59,4,2022-09-28,correctivo,,148231.6,Taller Rodríguez Hnos.,167936
+60,4,2022-10-23,preventivo,cambio_aceite_filtro,150000.0,Service Oficial Mercedes-Benz,35153
+61,4,2022-10-23,preventivo,frenos,150000.0,Service Oficial Iveco,42696
+62,4,2022-12-28,correctivo,,155601.9,Service Oficial Mercedes-Benz,150127
+63,4,2023-02-07,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico San Martín,43585
+64,4,2023-02-07,preventivo,correa_distribucion,160000.0,Taller Diesel Norte,122893
+65,4,2023-06-26,preventivo,cambio_aceite_filtro,170000.0,Service Oficial Iveco,35255
+66,4,2023-11-30,preventivo,cambio_aceite_filtro,180000.0,Frenos y Embragues Sur,59938
+67,4,2023-11-30,preventivo,frenos,180000.0,Taller Central de Flota,61918
+68,4,2023-11-30,preventivo,cubiertas,180000.0,Gomería y Mecánica El Rápido,45789
+69,4,2024-03-07,preventivo,cambio_aceite_filtro,190000.0,Gomería y Mecánica El Rápido,56871
+70,4,2024-07-12,correctivo,,198622.7,Taller Mecánico San Martín,206594
+71,4,2024-08-03,preventivo,cambio_aceite_filtro,200000.0,Taller Mecánico La Ruta,90689
+72,4,2024-12-10,preventivo,cambio_aceite_filtro,210000.0,Taller Diesel Norte,73259
+73,4,2024-12-10,preventivo,frenos,210000.0,Taller Mecánico La Ruta,137948
+74,5,2022-01-24,preventivo,cambio_aceite_filtro,110000.0,Taller Diesel Norte,31070
+75,5,2022-05-11,correctivo,,119162.2,Service Oficial Iveco,125923
+76,5,2022-05-27,preventivo,cambio_aceite_filtro,120000.0,Taller Diesel Norte,34591
+77,5,2022-05-27,preventivo,frenos,120000.0,Gomería y Mecánica El Rápido,47253
+78,5,2022-08-26,correctivo,,124229.5,Service Oficial Iveco,108542
+79,5,2022-11-17,preventivo,cambio_aceite_filtro,130000.0,Taller Central de Flota,26853
+80,5,2023-01-05,preventivo,cubiertas,135000.0,Service Oficial Iveco,23181
+81,5,2023-02-22,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico San Martín,28523
+82,5,2023-07-28,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico San Martín,46352
+83,5,2023-07-28,preventivo,frenos,150000.0,Taller Mecánico La Ruta,80366
+84,5,2023-12-21,preventivo,cambio_aceite_filtro,160000.0,Taller Diesel Norte,63193
+85,5,2023-12-21,preventivo,correa_distribucion,160000.0,Service Oficial Mercedes-Benz,124847
+86,5,2024-03-23,preventivo,cambio_aceite_filtro,170000.0,Taller Central de Flota,53494
+87,5,2024-04-24,correctivo,,172288.3,Service Oficial Mercedes-Benz,407018
+88,5,2024-07-05,correctivo,,175698.7,Frenos y Embragues Sur,442747
+89,5,2024-09-22,preventivo,cambio_aceite_filtro,180000.0,Taller Rodríguez Hnos.,65381
+90,5,2024-09-22,preventivo,frenos,180000.0,Service Oficial Iveco,110328
+91,5,2024-09-22,preventivo,cubiertas,180000.0,Taller Mecánico La Ruta,50145
+92,5,2024-12-15,correctivo,,187514.2,Taller Rodríguez Hnos.,215733
+93,6,2022-01-01,preventivo,cambio_aceite_filtro,110000.0,Service Oficial Iveco,20564
+94,6,2022-04-11,preventivo,cambio_aceite_filtro,120000.0,Frenos y Embragues Sur,32151
+95,6,2022-04-11,preventivo,frenos,120000.0,Gomería y Mecánica El Rápido,54034
+96,6,2022-07-25,correctivo,,125665.0,Gomería y Mecánica El Rápido,123843
+97,6,2022-09-15,correctivo,,128855.6,Gomería y Mecánica El Rápido,143840
+98,6,2022-10-07,preventivo,cambio_aceite_filtro,130000.0,Frenos y Embragues Sur,24817
+99,6,2022-12-07,preventivo,cubiertas,135000.0,Taller Mecánico San Martín,17266
+100,6,2023-01-26,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Iveco,30652
+101,6,2023-06-15,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,55283
+102,6,2023-06-15,preventivo,frenos,150000.0,Frenos y Embragues Sur,91985
+103,6,2023-10-10,correctivo,,157385.3,Taller Mecánico San Martín,72199
+104,6,2023-11-13,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Mercedes-Benz,56603
+105,6,2023-11-13,preventivo,correa_distribucion,160000.0,Taller Mecánico San Martín,119743
+106,6,2024-02-22,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico La Ruta,57327
+107,6,2024-08-02,preventivo,cambio_aceite_filtro,180000.0,Taller Rodríguez Hnos.,67723
+108,6,2024-08-02,preventivo,frenos,180000.0,Taller Mecánico San Martín,113321
+109,6,2024-08-02,preventivo,cubiertas,180000.0,Taller Central de Flota,45735
+110,6,2024-12-09,preventivo,cambio_aceite_filtro,190000.0,Gomería y Mecánica El Rápido,75344
+111,7,2022-01-18,correctivo,,116889.6,Taller Central de Flota,95242
+112,7,2022-02-19,preventivo,cambio_aceite_filtro,120000.0,Service Oficial Mercedes-Benz,21832
+113,7,2022-02-19,preventivo,frenos,120000.0,Taller Central de Flota,47629
+114,7,2022-07-25,preventivo,cambio_aceite_filtro,130000.0,Service Oficial Mercedes-Benz,33822
+115,7,2022-10-18,preventivo,cubiertas,135000.0,Taller Diesel Norte,23396
+116,7,2022-12-15,preventivo,cambio_aceite_filtro,140000.0,Taller Central de Flota,40091
+117,7,2023-04-07,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico San Martín,33153
+118,7,2023-04-07,preventivo,frenos,150000.0,Gomería y Mecánica El Rápido,78637
+119,7,2023-10-06,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Iveco,42357
+120,7,2023-10-06,preventivo,correa_distribucion,160000.0,Taller Mecánico La Ruta,132544
+121,7,2024-01-25,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico La Ruta,59012
+122,7,2024-05-18,preventivo,cambio_aceite_filtro,180000.0,Gomería y Mecánica El Rápido,61399
+123,7,2024-05-18,preventivo,frenos,180000.0,Taller Mecánico La Ruta,137716
+124,7,2024-05-18,preventivo,cubiertas,180000.0,Taller Rodríguez Hnos.,47654
+125,7,2024-11-03,preventivo,cambio_aceite_filtro,190000.0,Taller Rodríguez Hnos.,57426
+126,8,2022-03-04,preventivo,cambio_aceite_filtro,130000.0,Service Oficial Mercedes-Benz,22169
+127,8,2022-05-19,preventivo,cubiertas,135000.0,Taller Central de Flota,12418
+128,8,2022-08-21,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Mercedes-Benz,30381
+129,8,2022-12-30,preventivo,cambio_aceite_filtro,150000.0,Taller Rodríguez Hnos.,32128
+130,8,2022-12-30,preventivo,frenos,150000.0,Service Oficial Mercedes-Benz,53963
+131,8,2023-04-13,preventivo,cambio_aceite_filtro,160000.0,Taller Central de Flota,32574
+132,8,2023-04-13,preventivo,correa_distribucion,160000.0,Taller Rodríguez Hnos.,111153
+133,8,2023-06-06,correctivo,,163328.5,Taller Rodríguez Hnos.,176997
+134,8,2023-10-10,preventivo,cambio_aceite_filtro,170000.0,Frenos y Embragues Sur,45278
+135,8,2024-01-26,correctivo,,179801.0,Service Oficial Iveco,372566
+136,8,2024-01-28,preventivo,cambio_aceite_filtro,180000.0,Gomería y Mecánica El Rápido,56755
+137,8,2024-01-28,preventivo,frenos,180000.0,Taller Central de Flota,71138
+138,8,2024-01-28,preventivo,cubiertas,180000.0,Taller Rodríguez Hnos.,33233
+139,8,2024-06-27,preventivo,cambio_aceite_filtro,190000.0,Taller Mecánico La Ruta,63012
+140,8,2024-08-08,correctivo,,192180.2,Taller Rodríguez Hnos.,339312
+141,8,2024-11-19,preventivo,cambio_aceite_filtro,200000.0,Taller Central de Flota,104477
+142,9,2022-02-08,preventivo,cambio_aceite_filtro,130000.0,Taller Mecánico San Martín,26067
+143,9,2022-04-18,preventivo,cubiertas,135000.0,Taller Central de Flota,22633
+144,9,2022-07-27,preventivo,cambio_aceite_filtro,140000.0,Taller Diesel Norte,33170
+145,9,2022-12-11,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,24240
+146,9,2022-12-11,preventivo,frenos,150000.0,Taller Diesel Norte,76058
+147,9,2023-03-19,preventivo,cambio_aceite_filtro,160000.0,Taller Central de Flota,33319
+148,9,2023-03-19,preventivo,correa_distribucion,160000.0,Taller Mecánico La Ruta,69378
+149,9,2023-06-20,correctivo,,165872.0,Taller Diesel Norte,128977
+150,9,2023-08-27,preventivo,cambio_aceite_filtro,170000.0,Taller Diesel Norte,43657
+151,9,2023-12-26,preventivo,cambio_aceite_filtro,180000.0,Gomería y Mecánica El Rápido,48070
+152,9,2023-12-26,preventivo,frenos,180000.0,Taller Central de Flota,112171
+153,9,2023-12-26,preventivo,cubiertas,180000.0,Frenos y Embragues Sur,33039
+154,9,2024-03-29,preventivo,cambio_aceite_filtro,190000.0,Gomería y Mecánica El Rápido,59818
+155,9,2024-07-21,correctivo,,196088.8,Taller Central de Flota,324852
+156,9,2024-09-14,correctivo,,198864.3,Gomería y Mecánica El Rápido,410488
+157,9,2024-10-02,preventivo,cambio_aceite_filtro,200000.0,Frenos y Embragues Sur,72541
+158,10,2023-11-25,preventivo,cambio_aceite_filtro,10000.0,Taller Diesel Norte,55059
+159,10,2024-03-12,preventivo,cambio_aceite_filtro,20000.0,Taller Diesel Norte,75512
+160,10,2024-09-21,preventivo,cambio_aceite_filtro,30000.0,Taller Central de Flota,70253
+161,10,2024-09-21,preventivo,frenos,30000.0,Taller Central de Flota,129903
+162,10,2024-12-07,correctivo,,35798.2,Service Oficial Mercedes-Benz,522773
+163,11,2022-03-07,preventivo,cambio_aceite_filtro,110000.0,Taller Mecánico La Ruta,23894
+164,11,2022-03-23,correctivo,,111314.0,Taller Diesel Norte,24625
+165,11,2022-04-13,correctivo,,113381.7,Service Oficial Mercedes-Benz,122634
+166,11,2022-08-02,preventivo,cambio_aceite_filtro,120000.0,Frenos y Embragues Sur,26807
+167,11,2022-08-02,preventivo,frenos,120000.0,Service Oficial Iveco,59884
+168,11,2022-08-13,correctivo,,121079.3,Taller Diesel Norte,152867
+169,11,2022-08-18,correctivo,,121688.6,Taller Rodríguez Hnos.,68663
+170,11,2022-11-17,preventivo,cambio_aceite_filtro,130000.0,Gomería y Mecánica El Rápido,26351
+171,11,2023-01-02,preventivo,cubiertas,135000.0,Taller Rodríguez Hnos.,28149
+172,11,2023-02-13,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico San Martín,40948
+173,11,2023-05-02,correctivo,,145664.0,Taller Mecánico San Martín,196611
+174,11,2023-07-13,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico San Martín,48896
+175,11,2023-07-13,preventivo,frenos,150000.0,Frenos y Embragues Sur,81552
+176,11,2023-12-17,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Iveco,57301
+177,11,2023-12-17,preventivo,correa_distribucion,160000.0,Gomería y Mecánica El Rápido,107952
+178,11,2024-04-08,preventivo,cambio_aceite_filtro,170000.0,Frenos y Embragues Sur,68103
+179,11,2024-08-03,correctivo,,176339.5,Frenos y Embragues Sur,246936
+180,11,2024-10-27,preventivo,cambio_aceite_filtro,180000.0,Service Oficial Mercedes-Benz,93475
+181,11,2024-10-27,preventivo,frenos,180000.0,Taller Mecánico La Ruta,174775
+182,11,2024-10-27,preventivo,cubiertas,180000.0,Taller Diesel Norte,50716
+183,12,2022-01-03,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico San Martín,20115
+184,12,2022-04-15,preventivo,cambio_aceite_filtro,150000.0,Taller Rodríguez Hnos.,34121
+185,12,2022-04-15,preventivo,frenos,150000.0,Service Oficial Mercedes-Benz,41686
+186,12,2022-09-15,preventivo,cambio_aceite_filtro,160000.0,Gomería y Mecánica El Rápido,38434
+187,12,2022-09-15,preventivo,correa_distribucion,160000.0,Taller Mecánico La Ruta,94702
+188,12,2022-12-25,preventivo,cambio_aceite_filtro,170000.0,Taller Diesel Norte,44945
+189,12,2023-02-07,correctivo,,175068.2,Gomería y Mecánica El Rápido,60526
+190,12,2023-04-10,preventivo,cambio_aceite_filtro,180000.0,Taller Central de Flota,39917
+191,12,2023-04-10,preventivo,frenos,180000.0,Taller Diesel Norte,88499
+192,12,2023-04-10,preventivo,cubiertas,180000.0,Service Oficial Mercedes-Benz,24553
+193,12,2023-09-28,preventivo,cambio_aceite_filtro,190000.0,Taller Central de Flota,60567
+194,12,2024-01-16,preventivo,cambio_aceite_filtro,200000.0,Taller Central de Flota,60704
+195,12,2024-05-14,preventivo,cambio_aceite_filtro,210000.0,Taller Mecánico La Ruta,80711
+196,12,2024-05-14,preventivo,frenos,210000.0,Service Oficial Iveco,99516
+197,12,2024-11-13,preventivo,cambio_aceite_filtro,220000.0,Taller Mecánico La Ruta,101576
+198,12,2024-12-30,preventivo,cubiertas,225000.0,Taller Mecánico San Martín,42997
+199,14,2022-01-19,preventivo,cambio_aceite_filtro,90000.0,Service Oficial Iveco,17586
+200,14,2022-01-19,preventivo,frenos,90000.0,Service Oficial Iveco,43440
+201,14,2022-01-19,preventivo,cubiertas,90000.0,Service Oficial Mercedes-Benz,11476
+202,14,2022-05-10,preventivo,cambio_aceite_filtro,100000.0,Taller Central de Flota,36383
+203,14,2022-10-08,preventivo,cambio_aceite_filtro,110000.0,Taller Mecánico La Ruta,41695
+204,14,2023-01-18,preventivo,cambio_aceite_filtro,120000.0,Taller Mecánico San Martín,42232
+205,14,2023-01-18,preventivo,frenos,120000.0,Service Oficial Mercedes-Benz,46214
+206,14,2023-04-25,preventivo,cambio_aceite_filtro,130000.0,Taller Central de Flota,32238
+207,14,2023-05-10,correctivo,,130593.2,Taller Mecánico La Ruta,246698
+208,14,2023-07-31,preventivo,cubiertas,135000.0,Taller Diesel Norte,35269
+209,14,2023-11-04,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Iveco,51785
+210,14,2024-01-12,correctivo,,145906.8,Taller Mecánico La Ruta,53543
+211,14,2024-03-02,preventivo,cambio_aceite_filtro,150000.0,Taller Diesel Norte,40316
+212,14,2024-03-02,preventivo,frenos,150000.0,Taller Diesel Norte,73382
+213,14,2024-09-03,preventivo,cambio_aceite_filtro,160000.0,Taller Central de Flota,78047
+214,14,2024-09-03,preventivo,correa_distribucion,160000.0,Service Oficial Mercedes-Benz,156511
+215,15,2022-02-04,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico San Martín,27505
+216,15,2022-06-09,preventivo,cambio_aceite_filtro,150000.0,Service Oficial Mercedes-Benz,21391
+217,15,2022-06-09,preventivo,frenos,150000.0,Service Oficial Mercedes-Benz,44311
+218,15,2022-10-27,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico La Ruta,30570
+219,15,2022-10-27,preventivo,correa_distribucion,160000.0,Taller Mecánico San Martín,95344
+220,15,2023-02-03,preventivo,cambio_aceite_filtro,170000.0,Service Oficial Mercedes-Benz,35938
+221,15,2023-07-02,preventivo,cambio_aceite_filtro,180000.0,Frenos y Embragues Sur,33525
+222,15,2023-07-02,preventivo,frenos,180000.0,Service Oficial Mercedes-Benz,82479
+223,15,2023-07-02,preventivo,cubiertas,180000.0,Gomería y Mecánica El Rápido,25670
+224,15,2023-11-26,preventivo,cambio_aceite_filtro,190000.0,Service Oficial Mercedes-Benz,68871
+225,15,2024-03-12,preventivo,cambio_aceite_filtro,200000.0,Service Oficial Mercedes-Benz,71648
+226,15,2024-03-13,correctivo,,200042.7,Taller Central de Flota,247359
+227,15,2024-09-23,preventivo,cambio_aceite_filtro,210000.0,Service Oficial Iveco,49890
+228,15,2024-09-23,preventivo,frenos,210000.0,Taller Mecánico San Martín,116264
+229,16,2022-03-06,preventivo,cambio_aceite_filtro,150000.0,Taller Central de Flota,17077
+230,16,2022-03-06,preventivo,frenos,150000.0,Taller Central de Flota,40330
+231,17,2024-04-20,preventivo,cambio_aceite_filtro,10000.0,Gomería y Mecánica El Rápido,65325
+232,17,2024-10-31,preventivo,cambio_aceite_filtro,20000.0,Frenos y Embragues Sur,59787
+233,17,2024-12-16,correctivo,,23320.6,Taller Rodríguez Hnos.,310179
+234,18,2022-03-08,preventivo,cambio_aceite_filtro,110000.0,Service Oficial Mercedes-Benz,26870
+235,18,2022-08-12,preventivo,cambio_aceite_filtro,120000.0,Taller Rodríguez Hnos.,32025
+236,18,2022-08-12,preventivo,frenos,120000.0,Service Oficial Mercedes-Benz,42521
+237,18,2022-12-01,correctivo,,128885.3,Taller Rodríguez Hnos.,55454
+238,18,2022-12-10,preventivo,cambio_aceite_filtro,130000.0,Taller Mecánico La Ruta,31199
+239,18,2023-01-20,preventivo,cubiertas,135000.0,Taller Mecánico La Ruta,22262
+240,18,2023-03-13,preventivo,cambio_aceite_filtro,140000.0,Frenos y Embragues Sur,47094
+241,18,2023-09-12,preventivo,cambio_aceite_filtro,150000.0,Frenos y Embragues Sur,54540
+242,18,2023-09-12,preventivo,frenos,150000.0,Gomería y Mecánica El Rápido,83147
+243,18,2024-01-05,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico San Martín,56462
+244,18,2024-01-05,preventivo,correa_distribucion,160000.0,Service Oficial Mercedes-Benz,109423
+245,18,2024-05-06,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico La Ruta,73527
+246,18,2024-06-23,correctivo,,172623.9,Taller Mecánico La Ruta,275265
+247,18,2024-11-28,preventivo,cambio_aceite_filtro,180000.0,Taller Rodríguez Hnos.,101884
+248,18,2024-11-28,preventivo,frenos,180000.0,Service Oficial Iveco,113565
+249,18,2024-11-28,preventivo,cubiertas,180000.0,Service Oficial Iveco,55085
+250,19,2023-05-29,preventivo,cambio_aceite_filtro,10000.0,Service Oficial Mercedes-Benz,52320
+251,19,2023-11-17,preventivo,cambio_aceite_filtro,20000.0,Taller Mecánico La Ruta,72267
+252,19,2024-02-24,preventivo,cambio_aceite_filtro,30000.0,Gomería y Mecánica El Rápido,38967
+253,19,2024-02-24,preventivo,frenos,30000.0,Service Oficial Iveco,120424
+254,19,2024-05-02,correctivo,,34087.8,Taller Rodríguez Hnos.,188777
+255,19,2024-06-26,correctivo,,36375.5,Service Oficial Iveco,79112
+256,19,2024-09-15,preventivo,cambio_aceite_filtro,40000.0,Taller Rodríguez Hnos.,70216
+257,19,2024-11-24,preventivo,cubiertas,45000.0,Taller Central de Flota,45327
+258,20,2022-01-09,correctivo,,116163.3,Taller Mecánico San Martín,98295
+259,20,2022-02-12,preventivo,cambio_aceite_filtro,120000.0,Service Oficial Iveco,33741
+260,20,2022-02-12,preventivo,frenos,120000.0,Frenos y Embragues Sur,55319
+261,20,2022-03-04,correctivo,,121880.4,Frenos y Embragues Sur,124038
+262,20,2022-07-16,preventivo,cambio_aceite_filtro,130000.0,Gomería y Mecánica El Rápido,34324
+263,20,2022-09-26,correctivo,,134936.6,Taller Mecánico San Martín,135357
+264,20,2022-09-27,preventivo,cubiertas,135000.0,Gomería y Mecánica El Rápido,22456
+265,20,2022-11-15,preventivo,cambio_aceite_filtro,140000.0,Taller Rodríguez Hnos.,40554
+266,20,2023-02-17,preventivo,cambio_aceite_filtro,150000.0,Taller Rodríguez Hnos.,26429
+267,20,2023-02-17,preventivo,frenos,150000.0,Taller Mecánico La Ruta,48181
+268,20,2023-07-18,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico San Martín,52674
+269,20,2023-07-18,preventivo,correa_distribucion,160000.0,Frenos y Embragues Sur,150582
+270,20,2023-07-23,correctivo,,160313.8,Taller Rodríguez Hnos.,126170
+271,20,2023-12-12,preventivo,cambio_aceite_filtro,170000.0,Taller Diesel Norte,71237
+272,20,2024-04-16,preventivo,cambio_aceite_filtro,180000.0,Service Oficial Iveco,76847
+273,20,2024-04-16,preventivo,frenos,180000.0,Gomería y Mecánica El Rápido,76091
+274,20,2024-04-16,preventivo,cubiertas,180000.0,Service Oficial Mercedes-Benz,45338
+275,20,2024-10-25,preventivo,cambio_aceite_filtro,190000.0,Taller Rodríguez Hnos.,89379
+276,21,2023-09-22,preventivo,cambio_aceite_filtro,10000.0,Taller Diesel Norte,60784
+277,21,2023-10-13,correctivo,,11463.3,Taller Rodríguez Hnos.,250600
+278,21,2024-01-06,correctivo,,19165.2,Service Oficial Mercedes-Benz,370253
+279,21,2024-01-16,preventivo,cambio_aceite_filtro,20000.0,Taller Mecánico San Martín,38701
+280,21,2024-06-27,preventivo,cambio_aceite_filtro,30000.0,Taller Diesel Norte,59926
+281,21,2024-06-27,preventivo,frenos,30000.0,Taller Diesel Norte,116322
+282,21,2024-12-03,preventivo,cambio_aceite_filtro,40000.0,Taller Mecánico La Ruta,78577
+283,22,2022-02-02,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico San Martín,27348
+284,22,2022-02-02,preventivo,correa_distribucion,160000.0,Taller Rodríguez Hnos.,85954
+285,22,2022-06-10,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico San Martín,31949
+286,22,2022-10-27,preventivo,cambio_aceite_filtro,180000.0,Taller Mecánico La Ruta,42858
+287,22,2022-10-27,preventivo,frenos,180000.0,Taller Rodríguez Hnos.,47808
+288,22,2022-10-27,preventivo,cubiertas,180000.0,Taller Diesel Norte,29693
+289,22,2023-01-27,preventivo,cambio_aceite_filtro,190000.0,Gomería y Mecánica El Rápido,39509
+290,22,2023-02-15,correctivo,,192307.9,Taller Central de Flota,102882
+291,22,2023-05-15,preventivo,cambio_aceite_filtro,200000.0,Taller Rodríguez Hnos.,48344
+292,22,2023-11-06,preventivo,cambio_aceite_filtro,210000.0,Taller Rodríguez Hnos.,62318
+293,22,2023-11-06,preventivo,frenos,210000.0,Taller Diesel Norte,80015
+294,22,2024-01-14,correctivo,,216397.8,Frenos y Embragues Sur,373658
+295,22,2024-02-21,preventivo,cambio_aceite_filtro,220000.0,Service Oficial Mercedes-Benz,57992
+296,22,2024-04-24,preventivo,cubiertas,225000.0,Gomería y Mecánica El Rápido,32144
+297,22,2024-08-08,preventivo,cambio_aceite_filtro,230000.0,Service Oficial Mercedes-Benz,73626
+298,23,2022-04-01,preventivo,cambio_aceite_filtro,130000.0,Taller Rodríguez Hnos.,30919
+299,23,2022-06-07,preventivo,cubiertas,135000.0,Taller Rodríguez Hnos.,22603
+300,23,2022-07-15,correctivo,,137144.0,Gomería y Mecánica El Rápido,95217
+301,23,2022-08-24,preventivo,cambio_aceite_filtro,140000.0,Gomería y Mecánica El Rápido,39742
+302,23,2022-12-08,preventivo,cambio_aceite_filtro,150000.0,Gomería y Mecánica El Rápido,42745
+303,23,2022-12-08,preventivo,frenos,150000.0,Frenos y Embragues Sur,48686
+304,23,2023-03-12,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico La Ruta,32036
+305,23,2023-03-12,preventivo,correa_distribucion,160000.0,Service Oficial Iveco,102695
+306,23,2023-09-23,preventivo,cambio_aceite_filtro,170000.0,Service Oficial Iveco,46255
+307,23,2024-01-20,preventivo,cambio_aceite_filtro,180000.0,Taller Rodríguez Hnos.,39263
+308,23,2024-01-20,preventivo,frenos,180000.0,Taller Rodríguez Hnos.,71793
+309,23,2024-01-20,preventivo,cubiertas,180000.0,Service Oficial Mercedes-Benz,44422
+310,23,2024-07-08,preventivo,cambio_aceite_filtro,190000.0,Service Oficial Mercedes-Benz,76201
+311,23,2024-12-29,preventivo,cambio_aceite_filtro,200000.0,Service Oficial Mercedes-Benz,59377
+312,24,2024-05-13,preventivo,cambio_aceite_filtro,10000.0,Taller Central de Flota,56655
+313,24,2024-12-13,preventivo,cambio_aceite_filtro,20000.0,Taller Diesel Norte,97666
+314,25,2022-01-30,preventivo,cambio_aceite_filtro,130000.0,Taller Diesel Norte,17475
+315,25,2022-03-23,correctivo,,134487.8,Taller Diesel Norte,146064
+316,25,2022-04-03,preventivo,cubiertas,135000.0,Taller Mecánico La Ruta,18831
+317,25,2022-07-02,preventivo,cambio_aceite_filtro,140000.0,Taller Diesel Norte,40966
+318,25,2022-12-03,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,45331
+319,25,2022-12-03,preventivo,frenos,150000.0,Service Oficial Mercedes-Benz,70146
+320,25,2023-03-09,preventivo,cambio_aceite_filtro,160000.0,Service Oficial Iveco,41094
+321,25,2023-03-09,preventivo,correa_distribucion,160000.0,Taller Rodríguez Hnos.,106221
+322,25,2023-08-07,correctivo,,168688.0,Taller Mecánico San Martín,100299
+323,25,2023-08-27,preventivo,cambio_aceite_filtro,170000.0,Taller Central de Flota,56814
+324,25,2024-01-09,preventivo,cambio_aceite_filtro,180000.0,Frenos y Embragues Sur,63357
+325,25,2024-01-09,preventivo,frenos,180000.0,Taller Diesel Norte,97154
+326,25,2024-01-09,preventivo,cubiertas,180000.0,Taller Mecánico San Martín,38745
+327,25,2024-06-28,preventivo,cambio_aceite_filtro,190000.0,Service Oficial Iveco,79284
+328,25,2024-12-24,correctivo,,199479.1,Taller Central de Flota,191004
+329,25,2024-12-29,preventivo,cambio_aceite_filtro,200000.0,Service Oficial Iveco,77130
+330,26,2022-02-07,preventivo,cambio_aceite_filtro,140000.0,Taller Rodríguez Hnos.,17846
+331,26,2022-08-07,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico San Martín,29305
+332,26,2022-08-07,preventivo,frenos,150000.0,Taller Mecánico San Martín,55959
+333,26,2022-12-31,preventivo,cambio_aceite_filtro,160000.0,Taller Rodríguez Hnos.,46865
+334,26,2022-12-31,preventivo,correa_distribucion,160000.0,Taller Diesel Norte,85808
+335,26,2023-03-30,correctivo,,169041.3,Taller Diesel Norte,152770
+336,26,2023-04-13,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico La Ruta,37055
+337,26,2023-09-20,correctivo,,177887.1,Taller Diesel Norte,250608
+338,26,2023-10-23,preventivo,cambio_aceite_filtro,180000.0,Taller Rodríguez Hnos.,62742
+339,26,2023-10-23,preventivo,frenos,180000.0,Service Oficial Iveco,96081
+340,26,2023-10-23,preventivo,cubiertas,180000.0,Gomería y Mecánica El Rápido,30150
+341,26,2024-02-10,preventivo,cambio_aceite_filtro,190000.0,Service Oficial Mercedes-Benz,51261
+342,26,2024-02-20,correctivo,,190909.8,Service Oficial Iveco,319018
+343,26,2024-06-26,correctivo,,198230.9,Taller Rodríguez Hnos.,222506
+344,26,2024-08-15,preventivo,cambio_aceite_filtro,200000.0,Gomería y Mecánica El Rápido,48532
+345,27,2022-02-06,preventivo,cubiertas,135000.0,Frenos y Embragues Sur,15336
+346,27,2022-02-14,correctivo,,135841.9,Service Oficial Iveco,112428
+347,27,2022-03-20,correctivo,,138767.4,Service Oficial Iveco,69869
+348,27,2022-04-02,preventivo,cambio_aceite_filtro,140000.0,Taller Rodríguez Hnos.,20746
+349,27,2022-09-24,preventivo,cambio_aceite_filtro,150000.0,Taller Mecánico La Ruta,37072
+350,27,2022-09-24,preventivo,frenos,150000.0,Service Oficial Iveco,69404
+351,27,2023-01-15,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico La Ruta,34651
+352,27,2023-01-15,preventivo,correa_distribucion,160000.0,Frenos y Embragues Sur,97617
+353,27,2023-06-10,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico La Ruta,37482
+354,27,2023-11-29,preventivo,cambio_aceite_filtro,180000.0,Gomería y Mecánica El Rápido,65076
+355,27,2023-11-29,preventivo,frenos,180000.0,Service Oficial Iveco,74741
+356,27,2023-11-29,preventivo,cubiertas,180000.0,Service Oficial Iveco,36696
+357,27,2024-01-04,correctivo,,182668.8,Gomería y Mecánica El Rápido,129408
+358,27,2024-04-10,preventivo,cambio_aceite_filtro,190000.0,Taller Mecánico La Ruta,64493
+359,27,2024-08-17,correctivo,,196006.2,Frenos y Embragues Sur,290722
+360,27,2024-10-30,preventivo,cambio_aceite_filtro,200000.0,Taller Diesel Norte,97245
+361,27,2024-11-29,correctivo,,201714.7,Service Oficial Mercedes-Benz,146269
+362,28,2024-11-29,preventivo,cambio_aceite_filtro,10000.0,Frenos y Embragues Sur,89628
+363,29,2022-02-17,preventivo,cambio_aceite_filtro,120000.0,Frenos y Embragues Sur,20061
+364,29,2022-02-17,preventivo,frenos,120000.0,Service Oficial Mercedes-Benz,29734
+365,29,2022-03-17,correctivo,,121973.4,Taller Rodríguez Hnos.,138282
+366,29,2022-06-08,correctivo,,126525.0,Taller Mecánico San Martín,177051
+367,29,2022-08-19,preventivo,cambio_aceite_filtro,130000.0,Taller Mecánico La Ruta,27627
+368,29,2022-10-30,preventivo,cubiertas,135000.0,Taller Mecánico San Martín,21165
+369,29,2022-12-20,preventivo,cambio_aceite_filtro,140000.0,Gomería y Mecánica El Rápido,44596
+370,29,2023-02-25,correctivo,,146744.0,Gomería y Mecánica El Rápido,192692
+371,29,2023-04-15,preventivo,cambio_aceite_filtro,150000.0,Service Oficial Iveco,34862
+372,29,2023-04-15,preventivo,frenos,150000.0,Taller Rodríguez Hnos.,76730
+373,29,2023-10-28,preventivo,cambio_aceite_filtro,160000.0,Frenos y Embragues Sur,60217
+374,29,2023-10-28,preventivo,correa_distribucion,160000.0,Taller Rodríguez Hnos.,130855
+375,29,2023-11-11,correctivo,,161103.4,Gomería y Mecánica El Rápido,52616
+376,29,2024-02-13,preventivo,cambio_aceite_filtro,170000.0,Service Oficial Mercedes-Benz,58798
+377,29,2024-09-13,preventivo,cambio_aceite_filtro,180000.0,Taller Mecánico La Ruta,81438
+378,29,2024-09-13,preventivo,frenos,180000.0,Taller Mecánico San Martín,103714
+379,29,2024-09-13,preventivo,cubiertas,180000.0,Taller Rodríguez Hnos.,33060
+380,30,2022-02-14,preventivo,cambio_aceite_filtro,160000.0,Gomería y Mecánica El Rápido,18496
+381,30,2022-02-14,preventivo,correa_distribucion,160000.0,Service Oficial Iveco,78059
+382,30,2022-08-12,preventivo,cambio_aceite_filtro,170000.0,Taller Central de Flota,21623
+383,30,2022-10-01,correctivo,,172936.5,Frenos y Embragues Sur,129433
+384,30,2022-12-15,preventivo,cambio_aceite_filtro,180000.0,Service Oficial Mercedes-Benz,32970
+385,30,2022-12-15,preventivo,frenos,180000.0,Gomería y Mecánica El Rápido,63377
+386,30,2022-12-15,preventivo,cubiertas,180000.0,Taller Mecánico La Ruta,25190
+387,30,2023-04-11,preventivo,cambio_aceite_filtro,190000.0,Taller Rodríguez Hnos.,47253
+388,30,2023-09-23,preventivo,cambio_aceite_filtro,200000.0,Service Oficial Mercedes-Benz,59605
+389,30,2023-11-18,correctivo,,204145.7,Taller Mecánico La Ruta,309019
+390,30,2024-01-27,preventivo,cambio_aceite_filtro,210000.0,Service Oficial Mercedes-Benz,47008
+391,30,2024-01-27,preventivo,frenos,210000.0,Service Oficial Iveco,106308
+392,30,2024-07-18,preventivo,cambio_aceite_filtro,220000.0,Service Oficial Iveco,90333
+393,30,2024-10-24,preventivo,cubiertas,225000.0,Taller Mecánico San Martín,36424
+394,31,2022-02-07,preventivo,cambio_aceite_filtro,130000.0,Gomería y Mecánica El Rápido,32380
+395,31,2022-04-03,preventivo,cubiertas,135000.0,Gomería y Mecánica El Rápido,16276
+396,31,2022-05-21,correctivo,,137866.5,Taller Central de Flota,48001
+397,32,2022-02-05,correctivo,,115797.4,Gomería y Mecánica El Rápido,120781
+398,32,2022-04-02,preventivo,cambio_aceite_filtro,120000.0,Gomería y Mecánica El Rápido,21824
+399,32,2022-04-02,preventivo,frenos,120000.0,Taller Mecánico San Martín,31470
+400,32,2022-09-12,preventivo,cambio_aceite_filtro,130000.0,Taller Mecánico San Martín,35225
+401,32,2022-11-23,preventivo,cubiertas,135000.0,Gomería y Mecánica El Rápido,17448
+402,32,2023-01-11,preventivo,cambio_aceite_filtro,140000.0,Taller Mecánico La Ruta,36692
+403,32,2023-06-05,preventivo,cambio_aceite_filtro,150000.0,Taller Diesel Norte,47306
+404,32,2023-06-05,preventivo,frenos,150000.0,Taller Mecánico San Martín,76617
+405,32,2023-11-28,preventivo,cambio_aceite_filtro,160000.0,Gomería y Mecánica El Rápido,51363
+406,32,2023-11-28,preventivo,correa_distribucion,160000.0,Taller Central de Flota,107821
+407,32,2024-03-21,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico La Ruta,73547
+408,32,2024-10-25,correctivo,,179290.5,Taller Mecánico San Martín,393084
+409,32,2024-11-05,preventivo,cambio_aceite_filtro,180000.0,Taller Diesel Norte,99071
+410,32,2024-11-05,preventivo,frenos,180000.0,Taller Mecánico San Martín,163006
+411,32,2024-11-05,preventivo,cubiertas,180000.0,Taller Central de Flota,64868
+412,32,2024-12-19,correctivo,,183365.5,Frenos y Embragues Sur,396801
+413,33,2023-08-09,preventivo,cambio_aceite_filtro,10000.0,Taller Diesel Norte,43423
+414,33,2023-09-28,correctivo,,13081.4,Taller Mecánico La Ruta,219202
+415,33,2023-12-23,preventivo,cambio_aceite_filtro,20000.0,Gomería y Mecánica El Rápido,36398
+416,33,2024-05-09,preventivo,cambio_aceite_filtro,30000.0,Taller Mecánico San Martín,67861
+417,33,2024-05-09,preventivo,frenos,30000.0,Taller Mecánico San Martín,126684
+418,33,2024-11-25,preventivo,cambio_aceite_filtro,40000.0,Service Oficial Mercedes-Benz,90339
+419,34,2022-02-24,preventivo,cambio_aceite_filtro,180000.0,Frenos y Embragues Sur,17129
+420,34,2022-02-24,preventivo,frenos,180000.0,Service Oficial Mercedes-Benz,44480
+421,34,2022-02-24,preventivo,cubiertas,180000.0,Taller Central de Flota,15194
+422,34,2022-08-03,correctivo,,188366.0,Taller Mecánico San Martín,151807
+423,34,2022-09-05,preventivo,cambio_aceite_filtro,190000.0,Taller Rodríguez Hnos.,28013
+424,34,2023-01-04,preventivo,cambio_aceite_filtro,200000.0,Taller Central de Flota,25075
+425,34,2023-05-30,preventivo,cambio_aceite_filtro,210000.0,Taller Mecánico La Ruta,52405
+426,34,2023-05-30,preventivo,frenos,210000.0,Taller Diesel Norte,61007
+427,34,2023-08-14,correctivo,,213883.0,Taller Mecánico La Ruta,294505
+428,34,2023-10-11,correctivo,,217458.3,Taller Central de Flota,101057
+429,34,2023-10-13,correctivo,,217551.8,Taller Mecánico La Ruta,260089
+430,34,2023-11-19,preventivo,cambio_aceite_filtro,220000.0,Taller Diesel Norte,38635
+431,34,2024-01-04,preventivo,cubiertas,225000.0,Frenos y Embragues Sur,41478
+432,34,2024-03-10,preventivo,cambio_aceite_filtro,230000.0,Taller Rodríguez Hnos.,69827
+433,34,2024-07-01,correctivo,,235274.9,Frenos y Embragues Sur,195265
+434,34,2024-07-07,correctivo,,235475.0,Taller Rodríguez Hnos.,376287
+435,34,2024-10-27,preventivo,cambio_aceite_filtro,240000.0,Taller Mecánico La Ruta,65337
+436,34,2024-10-27,preventivo,frenos,240000.0,Gomería y Mecánica El Rápido,139910
+437,34,2024-10-27,preventivo,correa_distribucion,240000.0,Gomería y Mecánica El Rápido,260013
+438,35,2022-01-07,preventivo,cubiertas,135000.0,Frenos y Embragues Sur,18931
+439,35,2022-02-24,preventivo,cambio_aceite_filtro,140000.0,Gomería y Mecánica El Rápido,21642
+440,35,2022-08-27,preventivo,cambio_aceite_filtro,150000.0,Service Oficial Iveco,27711
+441,35,2022-08-27,preventivo,frenos,150000.0,Service Oficial Mercedes-Benz,39023
+442,35,2022-10-31,correctivo,,153493.9,Service Oficial Mercedes-Benz,182373
+443,35,2023-01-09,preventivo,cambio_aceite_filtro,160000.0,Taller Mecánico La Ruta,48894
+444,35,2023-01-09,preventivo,correa_distribucion,160000.0,Service Oficial Iveco,132767
+445,35,2023-06-14,preventivo,cambio_aceite_filtro,170000.0,Taller Mecánico San Martín,55926
+446,35,2023-12-18,preventivo,cambio_aceite_filtro,180000.0,Taller Central de Flota,68156
+447,35,2023-12-18,preventivo,frenos,180000.0,Gomería y Mecánica El Rápido,107353
+448,35,2023-12-18,preventivo,cubiertas,180000.0,Taller Mecánico La Ruta,25157
+449,35,2024-02-19,correctivo,,186745.5,Gomería y Mecánica El Rápido,239310
+450,35,2024-03-29,preventivo,cambio_aceite_filtro,190000.0,Taller Rodríguez Hnos.,74368
+451,35,2024-04-29,correctivo,,191959.1,Taller Mecánico La Ruta,407379
+452,35,2024-11-15,preventivo,cambio_aceite_filtro,200000.0,Taller Mecánico San Martín,73960
+453,36,2022-02-07,correctivo,,98785.5,Taller Mecánico San Martín,136543
+454,36,2022-02-24,preventivo,cambio_aceite_filtro,100000.0,Taller Mecánico La Ruta,22461
+455,36,2022-07-28,preventivo,cambio_aceite_filtro,110000.0,Taller Mecánico La Ruta,41909
+456,36,2022-12-10,preventivo,cambio_aceite_filtro,120000.0,Taller Central de Flota,35533
+457,36,2022-12-10,preventivo,frenos,120000.0,Taller Diesel Norte,56935
+458,36,2023-03-22,preventivo,cambio_aceite_filtro,130000.0,Service Oficial Mercedes-Benz,42719
+459,36,2023-06-08,preventivo,cubiertas,135000.0,Taller Central de Flota,21277
+460,36,2023-08-28,correctivo,,138687.3,Taller Mecánico San Martín,51690
+461,36,2023-09-20,preventivo,cambio_aceite_filtro,140000.0,Service Oficial Mercedes-Benz,57233
+462,36,2024-02-05,preventivo,cambio_aceite_filtro,150000.0,Taller Rodríguez Hnos.,67561
+463,36,2024-02-05,preventivo,frenos,150000.0,Taller Mecánico San Martín,121797
+464,36,2024-07-29,preventivo,cambio_aceite_filtro,160000.0,Taller Central de Flota,84768
+465,36,2024-07-29,preventivo,correa_distribucion,160000.0,Taller Rodríguez Hnos.,177830
+466,37,2022-01-12,correctivo,,151013.0,Frenos y Embragues Sur,33208
+467,37,2022-01-15,correctivo,,151336.8,Taller Central de Flota,143184
+468,37,2022-05-08,preventivo,cambio_aceite_filtro,160000.0,Taller Rodríguez Hnos.,32486
+469,37,2022-05-08,preventivo,correa_distribucion,160000.0,Gomería y Mecánica El Rápido,61847
+470,37,2022-11-07,preventivo,cambio_aceite_filtro,170000.0,Taller Diesel Norte,38871
+471,37,2023-02-23,preventivo,cambio_aceite_filtro,180000.0,Taller Rodríguez Hnos.,29364
+472,37,2023-02-23,preventivo,frenos,180000.0,Taller Rodríguez Hnos.,54535
+473,37,2023-02-23,preventivo,cubiertas,180000.0,Gomería y Mecánica El Rápido,27416
+474,37,2023-07-19,correctivo,,187672.1,Service Oficial Mercedes-Benz,139581
+475,37,2023-08-31,preventivo,cambio_aceite_filtro,190000.0,Taller Mecánico San Martín,54538
+476,37,2023-11-27,correctivo,,196137.6,Taller Central de Flota,269066
+477,37,2024-01-07,preventivo,cambio_aceite_filtro,200000.0,Frenos y Embragues Sur,74268
+478,37,2024-06-03,preventivo,cambio_aceite_filtro,210000.0,Taller Mecánico La Ruta,48469
+479,37,2024-06-03,preventivo,frenos,210000.0,Service Oficial Iveco,86528
+480,37,2024-12-14,preventivo,cambio_aceite_filtro,220000.0,Taller Rodríguez Hnos.,76444

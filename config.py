@@ -47,7 +47,7 @@ BARRIOS_POR_DEPOSITO = {
 # ---------------------------------------------------------------------------
 # Flota
 # ---------------------------------------------------------------------------
-VEHICULOS_POR_DEPOSITO = (8, 14)  # rango por depósito (flota ajustada para uso casi diario)
+VEHICULOS_POR_DEPOSITO = (9, 15)  # rango por depósito (flota ajustada para uso casi diario)
 FACTOR_CHOFERES = 1.2  # choferes = vehículos * este factor
 
 # Catálogo de modelos técnicos (Modelos_Vehiculo).
@@ -125,6 +125,22 @@ CLIENTES_POR_DEPOSITO = (350, 550)
 TIPOS_CLIENTE = ["kiosco", "supermercado", "bar_restaurante", "mayorista", "autoservicio"]
 # Peso relativo de cada tipo en la cartera de clientes (no todos igual de comunes)
 PESOS_TIPOS_CLIENTE = [0.35, 0.15, 0.20, 0.08, 0.22]
+
+# Crecimiento de la cartera: proporción de clientes que ya existe al
+# FECHA_INICIO. El resto se incorpora de forma uniforme durante los 3 años.
+PROP_CLIENTES_PREEXISTENTES = 0.85
+ANIOS_HISTORIA_CLIENTES = 2  # los preexistentes tienen alta hasta 2 años antes del inicio
+
+# Bajas de clientes (churn): probabilidad ANUAL por tipo de cliente.
+# Poné todas en 0 para desactivar las bajas.
+PROB_BAJA_ANUAL_POR_TIPO = {
+    "kiosco": 0.04,
+    "autoservicio": 0.03,
+    "bar_restaurante": 0.045,
+    "supermercado": 0.015,
+    "mayorista": 0.01,
+}
+DIAS_MINIMOS_ANTES_DE_BAJA = 90
 
 # Frecuencia de pedido base (en días) por tipo de cliente.
 # Un supermercado pide seguido, un kiosco espacia más.

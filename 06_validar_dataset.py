@@ -111,6 +111,15 @@ def main():
     orden_fechas_mal = (pd.to_datetime(con_baja["fecha_baja"]) <= pd.to_datetime(con_baja["fecha_alta"])).sum()
     todo_ok &= check("fecha_baja posterior a fecha_alta (cuando existe)", orden_fechas_mal == 0, f"{orden_fechas_mal} filas")
 
+    cli = t["clientes"]
+    cli_baja = cli.dropna(subset=["fecha_baja"])
+    baja_mal = (pd.to_datetime(cli_baja["fecha_baja"]) <= pd.to_datetime(cli_baja["fecha_alta"])).sum()
+    todo_ok &= check("clientes.fecha_baja posterior a fecha_alta (cuando existe)", baja_mal == 0, f"{baja_mal} filas")
+
+    ped_cli = t["pedidos"].merge(cli_baja[["cliente_id", "fecha_baja"]], on="cliente_id")
+    pedidos_post_baja = (pd.to_datetime(ped_cli["fecha_pedido"]) > pd.to_datetime(ped_cli["fecha_baja"])).sum()
+    todo_ok &= check("Ningún pedido posterior a la baja del cliente", pedidos_post_baja == 0, f"{pedidos_post_baja} pedidos")
+
     print("\n--- Resumen general (para tener una foto rápida) ---")
     for nombre, df in t.items():
         print(f"  {nombre:30s} {len(df):>8,d} filas")

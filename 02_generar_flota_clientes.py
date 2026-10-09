@@ -147,8 +147,27 @@ def generar_clientes(depositos: pd.DataFrame, zonas: pd.DataFrame) -> pd.DataFra
             zona = zonas_dep.iloc[cfg.RNG.choice(len(zonas_dep), p=pesos_zona)]
             tipo = str(cfg.RNG.choice(cfg.TIPOS_CLIENTE, p=cfg.PESOS_TIPOS_CLIENTE))
             prefijo = fake.random_element(tipos_nombre[tipo])
-            fecha_alta = fecha_aleatoria_entre(
-                FECHA_INICIO - timedelta(days=365 * 2), FECHA_FIN - timedelta(days=15))
+            
+
+            # Alta: la mayor parte de la cartera ya existe al arrancar el período
+            if cfg.RNG.random() < cfg.PROP_CLIENTES_PREEXISTENTES:
+                fecha_alta = fecha_aleatoria_entre(
+                    FECHA_INICIO - timedelta(days=365 * cfg.ANIOS_HISTORIA_CLIENTES),
+                    FECHA_INICIO)
+            else:
+                fecha_alta = fecha_aleatoria_entre(
+                    FECHA_INICIO, FECHA_FIN - timedelta(days=15))
+
+            # Baja (churn): p = 1 - (1 - tasa_anual) ** años_activo
+            fecha_baja = None
+            inicio_actividad = max(fecha_alta, FECHA_INICIO)
+            anios_activo = (FECHA_FIN - inicio_actividad).days / 365
+            p_baja = 1 - (1 - cfg.PROB_BAJA_ANUAL_POR_TIPO[tipo]) ** anios_activo
+            if cfg.RNG.random() < p_baja:
+                desde = inicio_actividad + timedelta(days=cfg.DIAS_MINIMOS_ANTES_DE_BAJA)
+                hasta = FECHA_FIN - timedelta(days=15)
+                if desde < hasta:
+                    fecha_baja = fecha_aleatoria_entre(desde, hasta)
 
             filas.append({
                 "cliente_id": cliente_id,
@@ -156,6 +175,7 @@ def generar_clientes(depositos: pd.DataFrame, zonas: pd.DataFrame) -> pd.DataFra
                 "tipo_cliente": tipo,
                 "zona_id": int(zona["zona_id"]),
                 "fecha_alta": fecha_alta.strftime("%Y-%m-%d"),
+                "fecha_baja": fecha_baja.strftime("%Y-%m-%d") if fecha_baja else None,
             })
             cliente_id += 1
 
